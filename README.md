@@ -4,10 +4,15 @@ Please see [WordPress plugin developer handbook](https://developer.wordpress.org
 
 ## Localization
 
+Edit the `.po` files in the `languages` folder.
+
+Then use `wp-cli` to generate `.mo` files. 
+
 ```sh
 su -s /bin/bash www-data
 cd /usr/local/src/languages
-wp i18n make-mo
+wp i18n make-mo lasntgadmin-en_GB.po
+wp i18n make-mo woocommerce-en_GB.po
 ```
 
 ## Development
