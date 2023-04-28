@@ -19,7 +19,6 @@ class Translate {
 
 	public static function load_textdomain() {
 		load_plugin_textdomain( 'lasntgadmin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-		error_log( __( 'Featured', 'lasntgadmin' ) );
 	}
 
 	public static function load_my_own_textdomain( $mofile, $domain ) {
