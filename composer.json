@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lasntg\\Admin\\": "lib"
+            "Lasntg\\Admin\\Translate\\": "lib"
         }
     },
     "autoload-dev": {

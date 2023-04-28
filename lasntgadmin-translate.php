@@ -11,9 +11,9 @@
 
 defined( 'ABSPATH' ) || exit;
 
-use Lasntg\Admin\Translate;
+use Lasntg\Admin\Translate\Translations;
 
 // composer autoloading.
 require_once getenv( 'COMPOSER_AUTOLOAD_FILEPATH' );
 
-Translate::init();
+Translations::init();
