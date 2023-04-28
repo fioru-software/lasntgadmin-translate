@@ -11,7 +11,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-04-28T12:26:38+00:00\n"
-"PO-Revision-Date: 2023-04-28 15:54+0100\n"
+"PO-Revision-Date: 2023-04-28 16:07+0100\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: woocommerce\n"
 
+
+msgid "Products"
+msgstr "Produkte"
+
+msgid "Create Product"
+msgstr "Maak Produk"
+
+msgid "Start Import"
+msgstr "Begin Invoer"
+
+msgid "Ready to start selling something awesome?"
+msgstr "Gereed om iets te verkoop?"
