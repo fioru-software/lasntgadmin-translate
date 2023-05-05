@@ -32,3 +32,15 @@ msgstr "Vol Naam"
 
 msgid "Employee Number"
 msgstr "Werker Nommer"
+
+msgid "Products"
+msgstr "Courses"
+
+msgid "Create Product"
+msgstr "Create Course"
+
+msgid "Edit product"
+msgstr "Edit Course"
+
+msgid "Product name"
+msgstr "Course name"

@@ -17,13 +17,1149 @@ msgstr ""
 
 
 msgid "Products"
-msgstr "Produkte"
+msgstr "Courses"
 
-msgid "Create Product"
-msgstr "Maak Produk"
+msgctxt "Admin menu name"
+msgid "Products"
+msgstr "Courses"
 
 msgid "Start Import"
 msgstr "Begin Invoer"
 
 msgid "Ready to start selling something awesome?"
 msgstr "Gereed om iets te verkoop?"
+
+msgid "Create Product"
+msgstr "Create Course"
+
+msgid "Create Products"
+msgstr "Create Courses"
+
+msgid "Add new product"
+msgstr "Add new Course"
+
+msgid "Edit product"
+msgstr "Edit Course"
+
+msgid "Product name"
+msgstr "Course name"
+
+msgid "All Products"
+msgstr "All Courses"
+
+msgid "Product description"
+msgstr "Course description"
+
+msgid "Product short description"
+msgstr "Course short description"
+
+msgid "SKU"
+msgstr "Course code"
+
+msgid "Product image"
+msgstr "Course image"
+
+msgid "Product tags"
+msgstr "Course tags"
+
+msgid "Product categories"
+msgstr "Course categories"
+
+msgid "Product data"
+msgstr "Course data"
+
+msgid "Product draft updated"
+msgstr "Course draft updated"
+
+msgid "Product gallery images"
+msgstr "Course gallery images"
+
+msgid "Product gallery"
+msgstr "Course gallery"
+
+msgid "Add product gallery images"
+msgstr "Add course gallery images"
+
+msgid "Edit Product"
+msgstr "Edit course"
+
+msgid "Awaiting product image"
+msgstr "Awaiting course image"
+
+msgid "Search products…"
+msgstr "Search courses…"
+
+msgid "Product ID or SKU is required"
+msgstr "Course ID is required"
+
+#: includes/api/class-wc-api-orders.php:895
+#: includes/api/v2/class-wc-api-orders.php:895
+msgid "Product ID provided does not match this line item"
+msgstr "Course ID provided does not match this line item"
+
+#: includes/api/class-wc-api-orders.php:910
+#: includes/api/v2/class-wc-api-orders.php:910
+msgid "The product variation is invalid"
+msgstr "The course variation is invalid"
+
+#: includes/api/class-wc-api-orders.php:921
+#: includes/api/v2/class-wc-api-orders.php:921
+msgid "Product is invalid"
+msgstr "Course is invalid"
+
+#: includes/api/class-wc-api-orders.php:926
+#: includes/api/v2/class-wc-api-orders.php:926
+msgid "Product quantity must be a positive float"
+msgstr "Course capacity must be a positive float"
+
+#: includes/api/class-wc-api-orders.php:931
+#: includes/api/v2/class-wc-api-orders.php:931
+msgid "Product quantity is required"
+msgstr "Course capacity is required"
+
+
+#: includes/api/class-wc-api-products.php:178
+#: includes/api/v1/class-wc-api-products.php:143
+#: includes/api/v2/class-wc-api-products.php:183
+msgid "You do not have permission to read the products count"
+msgstr "You do not have permission to read the courses count"
+
+#: includes/api/class-wc-api-products.php:212
+#: includes/api/v2/class-wc-api-products.php:217
+msgid "You do not have permission to create products"
+msgstr "You do not have permission to create courses"
+
+#: includes/api/class-wc-api-products.php:234
+#: includes/api/class-wc-api-products.php:353
+#: includes/api/v2/class-wc-api-products.php:239
+#: includes/api/v2/class-wc-api-products.php:358
+msgid "Invalid product type - the product type must be any of these: %s"
+msgstr "Invalid course type - the course type must be any of these: %s"
+
+#: includes/api/class-wc-api-products.php:487
+#: includes/api/class-wc-api-products.php:523
+#: includes/api/v2/class-wc-api-products.php:492
+#: includes/api/v2/class-wc-api-products.php:528
+msgid "You do not have permission to read product categories"
+msgstr "You do not have permission to read course categories"
+
+#: includes/api/class-wc-api-products.php:518
+#: includes/api/v2/class-wc-api-products.php:523
+msgid "Invalid product category ID"
+msgstr "Invalid course category ID"
+
+#: includes/api/class-wc-api-products.php:529
+#: includes/api/v2/class-wc-api-products.php:534
+msgid "A product category with the provided ID could not be found"
+msgstr "A course category with the provided ID could not be found"
+
+#: includes/api/class-wc-api-products.php:820
+#: includes/api/class-wc-api-products.php:1279
+#: includes/api/v2/class-wc-api-products.php:825
+#: includes/api/v2/class-wc-api-products.php:1284
+msgid "The SKU already exists on another product"
+msgstr "The course code already exists on another course"
+
+#: includes/api/class-wc-api-products.php:2008
+#: includes/api/v2/class-wc-api-products.php:2013
+msgid "Invalid product attribute ID"
+msgstr ""
+
+#: includes/api/class-wc-api-products.php:2023
+#: includes/api/class-wc-api-products.php:2264
+#: includes/api/v2/class-wc-api-products.php:2028
+#: includes/api/v2/class-wc-api-products.php:2269
+msgid "A product attribute with the provided ID could not be found"
+msgstr "A course attribute with the provided ID could not be found"
+
+
+#: includes/class-wc-ajax.php:1426
+msgid ""
+"No products had their stock reduced - they may not have stock management "
+"enabled."
+msgstr "No courses had their stock reduced - they may not have stock management enabled."
+
+
+#: includes/class-wc-auth.php:115
+msgid "View and manage products"
+msgstr "View and manage courses"
+
+#: includes/class-wc-ajax.php:1477
+msgid ""
+"No products had their stock increased - they may not have stock management "
+"enabled."
+msgstr "No courses had their stock increased - they may not have stock management enabled."
+
+#: includes/class-wc-breadcrumb.php:211
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr "Courses tagged &ldquo;%s&rdquo;"
+
+
+#: includes/class-wc-cart.php:894
+msgid "Sorry, this product cannot be purchased."
+msgstr "Sorry, this course cannot be purchased."
+
+
+#: includes/class-wc-cart.php:899
+msgid ""
+"You cannot add &quot;%s&quot; to the cart because the product is out of "
+"stock."
+msgstr "You cannot add &quot;%s&quot; to the basket because the course is out of stock."
+
+#: includes/class-wc-comments.php:191
+msgid "Please rate the product."
+msgstr "Please rate the course."
+
+#: includes/class-wc-emails.php:393
+msgid "Product low in stock"
+msgstr "Course low in stock"
+
+#: includes/class-wc-emails.php:411
+msgid "Product out of stock"
+msgstr "Course out of stock"
+
+#: includes/class-wc-emails.php:441
+msgid "Product Backorder"
+msgstr "Course Backorder"
+
+#: includes/class-wc-form-handler.php:674
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "Please choose a course to add to your basket&hellip;"
+
+#: includes/class-wc-form-handler.php:729
+msgid "Please choose product options&hellip;"
+msgstr "Please choose course options&hellip;"
+
+
+#: includes/class-wc-frontend-scripts.php:265
+msgid ""
+"Sorry, no products matched your selection. Please choose a different "
+"combination."
+msgstr "Sorry, no courses matched your selection. Please choose a different combination."
+
+#: includes/class-wc-frontend-scripts.php:266
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr "Sorry, this course is unavailable. Please choose a different combination."
+
+#: includes/class-wc-post-types.php:63 includes/class-wc-post-types.php:65
+#: includes/widgets/class-wc-widget-product-categories.php:43
+msgid "Product Categories"
+msgstr "Course Categories"
+
+#: includes/class-wc-post-types.php:66
+msgid "Product Category"
+msgstr "Course Category"
+
+
+#: includes/class-wc-post-types.php:68
+msgid "Search Product Categories"
+msgstr "Search Course Categories"
+
+#: includes/class-wc-post-types.php:69
+msgid "All Product Categories"
+msgstr "All Course Categories"
+
+#: includes/class-wc-post-types.php:70
+msgid "Parent Product Category"
+msgstr "Parent Course Category"
+
+#: includes/class-wc-post-types.php:71
+msgid "Parent Product Category:"
+msgstr "Parent Course Category:"
+
+#: includes/class-wc-post-types.php:72
+msgid "Edit Product Category"
+msgstr "Edit Course Category"
+
+#: includes/class-wc-post-types.php:73
+msgid "Update Product Category"
+msgstr "Update Course Category"
+
+#: includes/class-wc-post-types.php:74
+msgid "Add New Product Category"
+msgstr "Add New Course Category"
+
+#: includes/class-wc-post-types.php:75
+msgid "New Product Category Name"
+msgstr "New Course Category Name"
+
+#: includes/class-wc-post-types.php:98 includes/class-wc-post-types.php:100
+#: includes/widgets/class-wc-widget-product-tag-cloud.php:29
+msgid "Product Tags"
+msgstr "Course Tags"
+
+#: includes/class-wc-post-types.php:101
+msgid "Product Tag"
+msgstr "Course Tag"
+
+#: includes/class-wc-post-types.php:103
+msgid "Search Product Tags"
+msgstr "Search Course Tags"
+
+#: includes/class-wc-post-types.php:104
+msgid "All Product Tags"
+msgstr "All Course Tags"
+
+#: includes/class-wc-post-types.php:105
+msgid "Edit Product Tag"
+msgstr "Edit Course Tag"
+
+#: includes/class-wc-post-types.php:106
+msgid "Update Product Tag"
+msgstr "Update Course Tag"
+
+#: includes/class-wc-post-types.php:107
+msgid "Add New Product Tag"
+msgstr "Add New Course Tag"
+
+#: includes/class-wc-post-types.php:108
+msgid "New Product Tag Name"
+msgstr "New Course Tag Name"
+
+#: includes/class-wc-post-types.php:109
+msgid "Popular Product Tags"
+msgstr "Popular Course Tags"
+
+#: includes/class-wc-post-types.php:110
+msgid "Separate Product Tags with commas"
+msgstr "Separate Course Tags with commas"
+
+#: includes/class-wc-post-types.php:111
+msgid "Add or remove Product Tags"
+msgstr "Add or remove Course Tags"
+
+#: includes/class-wc-post-types.php:112
+msgid "Choose from the most used Product tags"
+msgstr "Choose from the most used Course tags"
+
+#: includes/class-wc-post-types.php:113
+msgid "No Product Tags found"
+msgstr "No Course Tags found"
+
+#: includes/class-wc-post-types.php:253
+msgid "This is where you can add new products to your store."
+msgstr "This is where you can add new courses to your store."
+
+
+#: includes/class-wc-product-external.php:88
+msgid "Buy product"
+msgstr "Buy course"
+
+#: includes/class-wc-product-variable.php:693
+msgid ""
+"This variable product has no active variations so cannot be published. "
+"Changing status to draft."
+msgstr "This variable course has no active variations so cannot be published. Changing status to draft."
+
+#: includes/wc-cart-functions.php:27
+msgid "This product is protected and cannot be purchased."
+msgstr "This course is protected and cannot be purchased."
+
+
+#: includes/wc-coupon-functions.php:26
+msgid "Product Discount"
+msgstr "Course Discount"
+
+#: includes/wc-coupon-functions.php:27
+msgid "Product % Discount"
+msgstr "Course % Discount"
+
+#: includes/wc-product-functions.php:508
+msgid "Simple product"
+msgstr "Simple course"
+
+#: includes/wc-product-functions.php:509
+msgid "Grouped product"
+msgstr "Grouped course"
+
+#: includes/wc-product-functions.php:510
+msgid "External/Affiliate product"
+msgstr "External/Affiliate course"
+
+#: includes/wc-product-functions.php:511
+msgid "Variable product"
+msgstr "Variable course"
+
+#: includes/wc-template-functions.php:131
+msgid "New products"
+msgstr "New courses"
+
+#: includes/wc-template-functions.php:139
+msgid "New products added to %s"
+msgstr "New courses added to %s"
+
+#: includes/wc-template-functions.php:147
+msgid "New products tagged %s"
+msgstr "New courses tagged %s"
+
+
+#: includes/widgets/class-wc-widget-layered-nav.php:23
+msgid ""
+"Shows a custom attribute in a widget which lets you narrow down the list of "
+"products when viewing product categories."
+msgstr "Shows a custom attribute in a widget which lets you narrow down the list of courses when viewing course categories."
+
+
+#: includes/widgets/class-wc-widget-product-categories.php:37
+msgid "A list or dropdown of product categories."
+msgstr "A list or dropdown of course categories."
+
+#: includes/widgets/class-wc-widget-product-categories.php:39
+msgid "WooCommerce Product Categories"
+msgstr "WooCommerce Course Categories"
+
+
+#: includes/widgets/class-wc-widget-product-categories.php:230
+msgid "No product categories exist."
+msgstr "No course categories exist."
+
+#: includes/widgets/class-wc-widget-product-search.php:23
+msgid "A Search box for products only."
+msgstr "A Search box for courses only."
+
+#: includes/widgets/class-wc-widget-product-search.php:25
+msgid "WooCommerce Product Search"
+msgstr "WooCommerce Course Search"
+
+#: includes/widgets/class-wc-widget-product-tag-cloud.php:23
+msgid "Your most used product tags in cloud format."
+msgstr "Your most used course tags in cloud format."
+
+#: includes/widgets/class-wc-widget-product-tag-cloud.php:25
+msgid "WooCommerce Product Tags"
+msgstr "WooCommerce Course Tags"
+
+#: includes/widgets/class-wc-widget-products.php:23
+msgid "Display a list of your products on your site."
+msgstr "Display a list of your courses on your site."
+
+#: includes/widgets/class-wc-widget-products.php:25
+msgid "WooCommerce Products"
+msgstr "WooCommerce Courses"
+
+#: includes/widgets/class-wc-widget-products.php:38
+#: includes/widgets/class-wc-widget-recently-viewed.php:38
+#: includes/widgets/class-wc-widget-top-rated-products.php:40
+msgid "Number of products to show"
+msgstr "Number of courses to show"
+
+
+#: includes/widgets/class-wc-widget-products.php:45
+msgid "All Products"
+msgstr "All Courses"
+
+#: includes/widgets/class-wc-widget-products.php:46
+msgid "Featured Products"
+msgstr "Featured Courses"
+
+#: includes/widgets/class-wc-widget-products.php:47
+msgid "On-sale Products"
+msgstr "On-sale Courses"
+
+
+#: includes/widgets/class-wc-widget-products.php:73
+msgid "Hide free products"
+msgstr "Hide free courses"
+
+#: includes/widgets/class-wc-widget-products.php:78
+msgid "Show hidden products"
+msgstr "Show hidden courses"
+
+#: includes/widgets/class-wc-widget-recently-viewed.php:23
+msgid "Display a list of recently viewed products."
+msgstr "Display a list of recently viewed courses."
+
+
+#: includes/widgets/class-wc-widget-recently-viewed.php:29
+msgid "Recently Viewed Products"
+msgstr "Recently Viewed Courses"
+
+
+#: includes/widgets/class-wc-widget-top-rated-products.php:25
+msgid "Display a list of your top rated products on your site."
+msgstr "Display a list of your top rated courses on your site."
+
+#: includes/widgets/class-wc-widget-top-rated-products.php:27
+msgid "WooCommerce Top Rated Products"
+msgstr "WooCommerce Top Rated Courses"
+
+#: includes/widgets/class-wc-widget-top-rated-products.php:31
+msgid "Top Rated Products"
+msgstr "Top Rated Courses"
+
+#: templates/cart/mini-cart.php:63
+msgid "No products in the cart."
+msgstr "No courses in the basket."
+
+#: templates/loop/no-products-found.php:17
+msgid "No products were found matching your selection."
+msgstr "No courses were found matching your selection."
+
+
+#: templates/single-product/add-to-cart/variable.php:23
+msgid "This product is currently out of stock and unavailable."
+msgstr "This course is currently out of stock and unavailable."
+
+
+#: templates/single-product/related.php:42
+msgid "Related Products"
+msgstr "Related Courses"
+
+#: templates/single-product/meta.php:26
+msgid "SKU:"
+msgstr "Course Code:"
+
+#: templates/product-searchform.php:3
+msgctxt "placeholder"
+msgid "Search Products&hellip;"
+msgstr "Search Courses&hellip;"
+
+#: templates/single-product-reviews.php:99
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr "Only logged in customers who have purchased this course may leave a review."
+
+
+#: includes/abstracts/abstract-wc-product.php:626
+#: includes/abstracts/abstract-wc-product.php:637
+#: includes/abstracts/abstract-wc-product.php:659
+#: includes/class-wc-ajax.php:829 includes/class-wc-ajax.php:2492
+#: includes/class-wc-product-variation.php:526
+#: includes/class-wc-product-variation.php:536
+#: includes/class-wc-product-variation.php:552
+msgid "In stock"
+msgstr "In stock"
+
+#: includes/abstracts/abstract-wc-product.php:631
+#: includes/class-wc-product-variation.php:530
+msgid "Only %s left in stock"
+msgstr "Only %s left in stock"
+
+#: includes/abstracts/abstract-wc-product.php:642
+#: includes/class-wc-product-variation.php:540
+msgid "%s in stock"
+msgstr "%s in stock"
+
+
+#: includes/admin/class-wc-admin-post-types.php:170
+msgid "%s product updated."
+msgid_plural "%s products updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:171
+msgid "%s product not updated, somebody is editing it."
+msgid_plural "%s products not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:172
+msgid "%s product permanently deleted."
+msgid_plural "%s products permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:173
+msgid "%s product moved to the Trash."
+msgid_plural "%s products moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:174
+msgid "%s product restored from the Trash."
+msgid_plural "%s products restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+
+#: includes/admin/settings/class-wc-settings-products.php:468
+msgid "Product Ratings"
+msgstr "Course Ratings"
+
+
+#: includes/admin/class-wc-admin-pointers.php:125
+#: includes/admin/settings/class-wc-settings-products.php:47
+#: includes/admin/settings/class-wc-settings-products.php:362
+msgid "Downloadable Products"
+msgstr "Downloadable Courses"
+
+
+## Product labels
+msgid "Products"
+msgstr "Courses"
+
+msgid "Product"
+msgstr "Course"
+
+msgid "product"
+msgstr "course"
+
+msgid "All Products"
+msgstr "All  Courses"
+
+msgid "Products"
+msgstr "Courses"
+
+msgid "Add New"
+msgstr "Add  New"
+
+msgid "Add new product"
+msgstr "Add new  course"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit product"
+msgstr "Edit  course"
+
+msgid "New product"
+msgstr "New  course"
+
+msgid "View product"
+msgstr "View  course"
+
+msgid "View products"
+msgstr "View  courses"
+
+msgid "Search products"
+msgstr "Search  courses"
+
+msgid "No products found"
+msgstr "No courses  found"
+
+msgid "No products found in trash"
+msgstr "No courses found in  trash"
+
+msgid "Parent product"
+msgstr "Parent  course"
+
+msgid "Product image"
+msgstr "Course  image"
+
+msgid "Set product image"
+msgstr "Set course  image"
+
+msgid "Remove product image"
+msgstr "Remove course  image"
+
+msgid "Use as product image"
+msgstr "Use as course  image"
+
+msgid "Insert into product"
+msgstr "Insert into  course"
+
+msgid "Uploaded to this product"
+msgstr "Uploaded to this  course"
+
+msgid "Filter products"
+msgstr "Filter  courses"
+
+msgid "Products navigation"
+msgstr "Courses  navigation"
+
+msgid "Products list"
+msgstr "Courses  list"
+
+msgid "Product Link"
+msgstr "Course  Link "
+
+msgid "A link to a product"
+msgstr "A link to a course"
+
+## Orders label
+msgid "Orders"
+msgstr "Enrollments"
+
+msgid "Order"
+msgstr "Enrollment"
+
+msgid "Add order"
+msgstr "Add enrollment"
+
+msgid "Add new order"
+msgstr "Add new enrollment"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Edit order"
+msgstr "Edit enrollment"
+
+msgid "New order"
+msgstr "New enrollment"
+
+msgid "View order"
+msgstr "View enrollment"
+
+msgid "Search orders"
+msgstr "Search enrollments"
+
+msgid "No orders found"
+msgstr "No enrollments found"
+
+msgid "No orders found in trash"
+msgstr "No enrollments found in trash"
+
+msgid "Parent orders"
+msgstr "Parent enrollments"
+
+msgid "Orders"
+msgstr "Enrollments"
+
+msgctxt "Admin menu name"
+msgid "Orders"
+msgstr "Enrollments"
+
+msgid "Filter orders"
+msgstr "Filter enrollments"
+
+msgid "Orders navigation"
+msgstr "Enrollments navigation"
+
+msgid "Orders list"
+msgstr "Enrollments list"
+
+msgid "When you receive a new order, it will appear here."
+msgstr "When you receive a new enrollment, it will appear here."
+
+
+#: includes/api/class-wc-api-orders.php:1275
+#: includes/api/class-wc-api-orders.php:1383
+#: includes/api/class-wc-api-orders.php:1445
+#: includes/api/v2/class-wc-api-orders.php:1274
+#: includes/api/v2/class-wc-api-orders.php:1382
+#: includes/api/v2/class-wc-api-orders.php:1444
+msgid "Invalid order note ID"
+msgstr "Invalid enrollment note ID"
+
+#: includes/api/class-wc-api-orders.php:1281
+#: includes/api/class-wc-api-orders.php:1390
+#: includes/api/class-wc-api-orders.php:1452
+#: includes/api/v2/class-wc-api-orders.php:1280
+#: includes/api/v2/class-wc-api-orders.php:1389
+#: includes/api/v2/class-wc-api-orders.php:1451
+msgid "An order note with the provided ID could not be found"
+msgstr "An enrollment note with the provided ID could not be found"
+
+#: includes/api/class-wc-api-orders.php:1315
+#: includes/api/v2/class-wc-api-orders.php:1314
+msgid "You do not have permission to create order notes"
+msgstr "You do not have permission to create enrollment notes"
+
+#: includes/api/class-wc-api-orders.php:1330
+#: includes/api/v2/class-wc-api-orders.php:1329
+msgid "Order note is required"
+msgstr "Enrollment note is required"
+
+#: includes/api/class-wc-api-orders.php:1339
+#: includes/api/v2/class-wc-api-orders.php:1338
+msgid "Cannot create order note, please try again"
+msgstr "Cannot create enrollment note, please try again"
+
+#: includes/api/class-wc-api-orders.php:1395
+#: includes/api/class-wc-api-orders.php:1457
+#: includes/api/v2/class-wc-api-orders.php:1394
+#: includes/api/v2/class-wc-api-orders.php:1456
+msgid "The order note ID provided is not associated with the order"
+msgstr "The enrollment note ID provided is not associated with the enrollment"
+
+#: includes/api/class-wc-api-orders.php:1464
+#: includes/api/v2/class-wc-api-orders.php:1463
+msgid "This order note cannot be deleted"
+msgstr "This enrollment note cannot be deleted"
+
+#: includes/api/class-wc-api-orders.php:1469
+#: includes/api/v2/class-wc-api-orders.php:1468
+msgid "Permanently deleted order note"
+msgstr "Permanently deleted enrollment note"
+
+#: includes/api/class-wc-api-orders.php:1530
+#: includes/api/class-wc-api-orders.php:1692
+#: includes/api/class-wc-api-orders.php:1751
+#: includes/api/v2/class-wc-api-orders.php:1529
+#: includes/api/v2/class-wc-api-orders.php:1691
+#: includes/api/v2/class-wc-api-orders.php:1750
+msgid "Invalid order refund ID"
+msgstr "Invalid enrollment refund ID"
+
+#: includes/api/class-wc-api-orders.php:1537
+#: includes/api/class-wc-api-orders.php:1699
+#: includes/api/class-wc-api-orders.php:1758
+#: includes/api/v2/class-wc-api-orders.php:1536
+#: includes/api/v2/class-wc-api-orders.php:1698
+#: includes/api/v2/class-wc-api-orders.php:1757
+msgid "An order refund with the provided ID could not be found"
+msgstr "An enrollment refund with the provided ID could not be found"
+
+#: includes/api/class-wc-api-orders.php:1606
+#: includes/api/v2/class-wc-api-orders.php:1605
+msgid "You do not have permission to create order refunds"
+msgstr "You do not have permission to create enrollment refunds"
+
+
+#: includes/api/class-wc-api-orders.php:1631
+#: includes/api/v2/class-wc-api-orders.php:1630
+msgid "Cannot create order refund, please try again"
+msgstr "Cannot create enrollment refund, please try again"
+
+
+#: includes/api/class-wc-api-orders.php:1704
+#: includes/api/class-wc-api-orders.php:1763
+#: includes/api/v2/class-wc-api-orders.php:1703
+#: includes/api/v2/class-wc-api-orders.php:1762
+msgid "The order refund ID provided is not associated with the order"
+msgstr "The enrollment refund ID provided is not associated with the enrollment"
+
+
+#: includes/admin/class-wc-admin-assets.php:214
+msgid ""
+"Are you sure you want to remove the selected items? If you have previously "
+"reduced this item's stock, or this order was submitted by a customer, you "
+"will need to manually restore the item's stock."
+msgstr "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this enrollment was submitted by a customer, you will need to manually restore the item's stock."
+
+#: includes/admin/class-wc-admin-assets.php:229
+msgid "Calculate totals based on order items, discounts, and shipping?"
+msgstr "Calculate totals based on enrollment items, discounts, and shipping?"
+
+#: includes/admin/class-wc-admin-assets.php:261
+msgid ""
+"Could not grant access - the user may already have permission for this file "
+"or billing email is not set. Ensure the billing email is set, and the order "
+"has been saved."
+msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrollment has been saved."
+
+
+#: includes/admin/class-wc-admin-dashboard.php:148
+msgid "<strong>%s order</strong> awaiting processing"
+msgid_plural "<strong>%s orders</strong> awaiting processing"
+msgstr[0] "<strong>%s enrollment</strong> awaiting processing"
+msgstr[1] "<strong>%s enrollments</strong> awaiting processing"
+
+#: includes/admin/class-wc-admin-dashboard.php:153
+msgid "<strong>%s order</strong> on-hold"
+msgid_plural "<strong>%s orders</strong> on-hold"
+msgstr[0] "<strong>%s enrollment</strong> on-hold"
+msgstr[1] "<strong>%s enrollments</strong> on-hold"
+
+
+#: includes/admin/class-wc-admin-meta-boxes.php:115
+msgid ""
+"Note: Permissions for order items will automatically be granted when the "
+"order status changes to processing/completed."
+msgstr "Note: Permissions for enrollment items will automatically be granted when the enrollment status changes to processing/completed."
+
+
+#: includes/admin/class-wc-admin-post-types.php:129
+#: includes/admin/class-wc-admin-post-types.php:132
+#: includes/admin/class-wc-admin-post-types.php:134
+msgid "Order updated."
+msgstr "Enrollment updated."
+
+#: includes/admin/class-wc-admin-post-types.php:133
+msgid "Order restored to revision from %s"
+msgstr "Enrollment restored to revision from %s"
+
+#: includes/admin/class-wc-admin-post-types.php:135
+msgid "Order saved."
+msgstr "Enrollment saved."
+
+#: includes/admin/class-wc-admin-post-types.php:136
+msgid "Order submitted."
+msgstr "Enrollment submitted."
+
+#: includes/admin/class-wc-admin-post-types.php:137
+msgid "Order scheduled for: <strong>%1$s</strong>."
+msgstr "Enrollment scheduled for: <strong>%1$s</strong>."
+
+#: includes/admin/class-wc-admin-post-types.php:139
+msgid "Order draft updated."
+msgstr "Enrollment draft updated."
+
+#: includes/admin/class-wc-admin-post-types.php:140
+msgid "Order updated and email sent."
+msgstr "Enrollment updated and email sent."
+
+
+#: includes/admin/class-wc-admin-post-types.php:178
+msgid "%s order updated."
+msgid_plural "%s orders updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:179
+msgid "%s order not updated, somebody is editing it."
+msgid_plural "%s orders not updated, somebody is editing them."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:180
+msgid "%s order permanently deleted."
+msgid_plural "%s orders permanently deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:181
+msgid "%s order moved to the Trash."
+msgid_plural "%s orders moved to the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/class-wc-admin-post-types.php:182
+msgid "%s order restored from the Trash."
+msgid_plural "%s orders restored from the Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+
+#: includes/admin/class-wc-admin-post-types.php:265
+msgid "Order Notes"
+msgstr "Enrollment Notes"
+
+#: includes/admin/class-wc-admin-post-types.php:1449
+msgid "Order status changed by bulk edit:"
+msgstr "Enrollment status changed by bulk edit:"
+
+#: includes/admin/class-wc-admin-post-types.php:1483
+msgid "Order status changed."
+msgid_plural "%s order statuses changed."
+msgstr[0] "Order status changed."
+msgstr[1] "%s enrollment statuses changed."
+
+#: includes/admin/class-wc-admin-reports.php:45
+#: includes/admin/reports/class-wc-report-customer-list.php:232
+msgid "Orders"
+msgstr "Enrollments"
+
+
+#: includes/admin/class-wc-admin-reports.php:54
+msgid "Sales by product"
+msgstr "Sales by course"
+
+
+#: includes/admin/class-wc-admin-setup-wizard.php:262
+msgid ""
+"Registered customers will be able to manage their account details and view "
+"past orders on this page."
+msgstr ""
+
+
+#: includes/admin/class-wc-admin-setup-wizard.php:450
+#: includes/admin/class-wc-admin-setup-wizard.php:456
+msgid "A total of %s per order and/or %s per item"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:42
+msgid "Resend order emails"
+msgstr "Resend enrollment emails"
+
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:192
+msgid "Order date:"
+msgstr "Enrollment date:"
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:196
+msgid "Order status:"
+msgstr "Enrollment status:"
+
+
+#: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:379
+msgid "Customer's notes about the order"
+msgstr "Customer's notes about the enrollment"
+
+
+#: includes/admin/meta-boxes/views/html-order-items.php:150
+msgid "This is the shipping and handling total costs for the order."
+msgstr "This is the shipping and handling total costs for the enrollment."
+
+
+#: includes/admin/meta-boxes/views/html-order-items.php:184
+msgid "Order Total"
+msgstr "Enrollment Total"
+
+#: includes/admin/meta-boxes/views/html-order-items.php:235
+msgid "To edit this order change the status back to \"Pending\""
+msgstr "To edit this enrollment change the status back to \"Pending\""
+
+#: includes/admin/meta-boxes/views/html-order-items.php:235
+msgid "This order has been paid for and is no longer editable"
+msgstr "This enrollment has been paid for and is no longer editable"
+
+
+#: includes/admin/meta-boxes/views/html-order-items.php:301
+msgid ""
+"The payment gateway used to place this order does not support automatic "
+"refunds."
+msgstr "The payment gateway used to place this enrollment does not support automatic refunds."
+
+#: includes/admin/reports/class-wc-report-customer-list.php:51
+msgid "%s previous order linked"
+msgid_plural "%s previous orders linked"
+msgstr[0] "%s previous enrollment linked"
+msgstr[1] "%s previous enrollments linked"
+
+
+#: includes/admin/reports/class-wc-report-customer-list.php:175
+msgid "View orders"
+msgstr "View enrollments"
+
+
+#: includes/admin/reports/class-wc-report-customer-list.php:234
+msgid "Last order"
+msgstr "Last enrollment"
+
+#: includes/admin/reports/class-wc-report-customers.php:102
+#: includes/admin/reports/class-wc-report-customers.php:301
+msgid "Customer Orders"
+msgstr "Customer Enrollments"
+
+#: includes/admin/reports/class-wc-report-customers.php:107
+#: includes/admin/reports/class-wc-report-customers.php:311
+msgid "Guest Orders"
+msgstr "Guest Enrollments"
+
+#: includes/admin/reports/class-wc-report-customers.php:126
+msgid "orders"
+msgstr "enrollments"
+
+#: includes/admin/reports/class-wc-report-customers.php:307
+msgid "customer orders"
+msgstr "customer enrollments"
+
+#: includes/admin/reports/class-wc-report-customers.php:317
+msgid "guest orders"
+msgstr "guest enrollments"
+
+#: includes/admin/reports/class-wc-report-sales-by-date.php:351
+msgid ""
+"This is the sum of the order totals after any refunds and including shipping"
+" and taxes."
+msgstr "This is the sum of the enrollment totals after any refunds and including shipping and taxes."
+
+
+#: includes/admin/reports/class-wc-report-sales-by-date.php:357
+msgid ""
+"This is the sum of the order totals after any refunds and excluding shipping"
+" and taxes."
+msgstr "This is the sum of the enrollment totals after any refunds and excluding shipping and taxes."
+
+
+#: includes/admin/reports/class-wc-report-sales-by-date.php:369
+msgid "%s orders placed"
+msgstr "%s enrollments placed"
+
+
+#: includes/admin/reports/class-wc-report-sales-by-date.php:380
+msgid "%s refunded %d order"
+msgid_plural "%s refunded %d orders"
+msgstr[0] ""
+msgstr[1] ""
+
+
+#: includes/admin/reports/class-wc-report-sales-by-date.php:520
+msgid "Number of orders"
+msgstr "Number of enrollments"
+
+
+#: includes/admin/reports/class-wc-report-taxes-by-code.php:146
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:148
+msgid "Number of Orders"
+msgstr "Number of Enrollments"
+
+
+#: includes/admin/reports/class-wc-report-taxes-by-code.php:147
+msgid "This is the sum of the \"Tax Rows\" tax amount within your orders."
+msgstr "This is the sum of the \"Tax Rows\" tax amount within your enrollments."
+
+
+#: includes/admin/reports/class-wc-report-taxes-by-code.php:148
+msgid ""
+"This is the sum of the \"Tax Rows\" shipping tax amount within your orders."
+msgstr "This is the sum of the \"Tax Rows\" shipping tax amount within your enrollments."
+
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:149
+msgid "This is the sum of the 'Order Total' field within your orders."
+msgstr "This is the sum of the 'Enrollment Total' field within your enrollments."
+
+
+#: includes/admin/reports/class-wc-report-taxes-by-date.php:150
+msgid "This is the sum of the 'Shipping Total' field within your orders."
+msgstr "This is the sum of the 'Shipping Total' field within your enrollments."
+
+
+#: includes/admin/settings/class-wc-settings-accounts.php:62
+msgid "Endpoint for the My Account &rarr; View Order page"
+msgstr "Endpoint for the My Account &rarr; View Enrollment page"
+
+
+#: includes/admin/settings/class-wc-settings-checkout.php:173
+msgid "Order Received"
+msgstr "Enrollment Received"
+
+
+#: includes/admin/settings/class-wc-settings-checkout.php:174
+msgid "Endpoint for the Checkout &rarr; Order Received page"
+msgstr "Endpoint for the Checkout &rarr; Enrollment Received page"
+
+
+#: includes/admin/settings/class-wc-settings-general.php:114
+msgid ""
+"This is a demo store for testing purposes &mdash; no orders shall be "
+"fulfilled."
+msgstr "This is a demo store for testing purposes &mdash; no enrollments shall be fulfilled."
+
+
+#: includes/admin/settings/class-wc-settings-products.php:260
+msgid ""
+"Hold stock (for unpaid orders) for x minutes. When this limit is reached, "
+"the pending order will be cancelled. Leave blank to disable."
+msgstr "Hold stock (for unpaid enrollments) for x minutes. When this limit is reached, the pending enrollment will be cancelled. Leave blank to disable."
+
+
+#: includes/admin/settings/class-wc-settings-products.php:400
+msgid ""
+"Enable this option to grant access to downloads when orders are "
+"\"processing\", rather than \"completed\"."
+msgstr "Enable this option to grant access to downloads when enrollments are \"processing\", rather than \"completed\"."
+
+
+#: includes/admin/settings/views/html-webhooks-edit.php:57
+msgid "Order Created"
+msgstr "Enrollment Created"
+
+#: includes/admin/settings/views/html-webhooks-edit.php:58
+msgid "Order Updated"
+msgstr "Enrollment Updated"
+
+#: includes/admin/settings/views/html-webhooks-edit.php:59
+msgid "Order Deleted"
+msgstr "Enrollment Deleted"
+
+
+#: includes/admin/views/html-admin-page-status-report.php:524
+msgid ""
+"A list of taxonomy terms that can be used in regard to order/product "
+"statuses."
+msgstr "A list of taxonomy terms that can be used in regard to enrollment/course statuses."
+
+
+#: includes/admin/class-wc-admin-assets.php:214
+msgid ""
+"Are you sure you want to remove the selected items? If you have previously "
+"reduced this item's stock, or this order was submitted by a customer, you "
+"will need to manually restore the item's stock."
+msgstr "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this enrollment was submitted by a customer, you will need to manually restore the item's stock."
+
+
+#: includes/admin/class-wc-admin-assets.php:229
+msgid "Calculate totals based on order items, discounts, and shipping?"
+msgstr "Calculate totals based on enrollment items, discounts, and shipping?"
+
+
+#: includes/admin/class-wc-admin-assets.php:261
+msgid ""
+"Could not grant access - the user may already have permission for this file "
+"or billing email is not set. Ensure the billing email is set, and the order "
+"has been saved."
+msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrollment has been saved."
