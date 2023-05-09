@@ -44,3 +44,9 @@ msgstr "Edit Course"
 
 msgid "Product name"
 msgstr "Course name"
+
+msgid "Order"
+msgstr "Enrollment"
+
+msgid "Order"
+msgstr "Enrollment"

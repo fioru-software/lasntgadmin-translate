@@ -212,11 +212,11 @@ msgstr "Please rate the course."
 
 #: includes/class-wc-emails.php:393
 msgid "Product low in stock"
-msgstr "Course low in stock"
+msgstr "Course capacity is low"
 
 #: includes/class-wc-emails.php:411
 msgid "Product out of stock"
-msgstr "Course out of stock"
+msgstr "Course capacity is full"
 
 #: includes/class-wc-emails.php:441
 msgid "Product Backorder"
@@ -534,12 +534,12 @@ msgstr "In stock"
 #: includes/abstracts/abstract-wc-product.php:631
 #: includes/class-wc-product-variation.php:530
 msgid "Only %s left in stock"
-msgstr "Only %s left in stock"
+msgstr "Only %s spaces left"
 
 #: includes/abstracts/abstract-wc-product.php:642
 #: includes/class-wc-product-variation.php:540
 msgid "%s in stock"
-msgstr "%s in stock"
+msgstr "%s spaces"
 
 
 #: includes/admin/class-wc-admin-post-types.php:170
