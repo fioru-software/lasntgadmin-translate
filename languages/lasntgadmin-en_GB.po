@@ -36,6 +36,9 @@ msgstr "Werker Nommer"
 msgid "Products"
 msgstr "Courses"
 
+msgid "Product"
+msgstr "Course"
+
 msgid "Create Product"
 msgstr "Create Course"
 
@@ -48,5 +51,3 @@ msgstr "Course name"
 msgid "Order"
 msgstr "Enrollment"
 
-msgid "Order"
-msgstr "Enrollment"
