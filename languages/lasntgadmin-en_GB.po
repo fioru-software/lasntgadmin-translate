@@ -51,3 +51,9 @@ msgstr "Course name"
 msgid "Order"
 msgstr "Enrollment"
 
+msgid "%d in stock"
+msgstr "%d spaces left"
+
+msgid "Not in stock"
+msgstr "No spaces available"
+
