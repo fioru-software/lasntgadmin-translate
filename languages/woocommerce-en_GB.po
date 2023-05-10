@@ -529,7 +529,7 @@ msgstr "Only logged in customers who have purchased this course may leave a revi
 #: includes/class-wc-product-variation.php:536
 #: includes/class-wc-product-variation.php:552
 msgid "In stock"
-msgstr "In stock"
+msgstr "Spaces"
 
 #: includes/abstracts/abstract-wc-product.php:631
 #: includes/class-wc-product-variation.php:530
@@ -1163,3 +1163,6 @@ msgid ""
 "or billing email is not set. Ensure the billing email is set, and the order "
 "has been saved."
 msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrollment has been saved."
+
+msgid "Stock"
+msgstr "Capacity"
