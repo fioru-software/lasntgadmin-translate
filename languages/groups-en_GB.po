@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Groups Translate\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"Last-Translator: Eric Muigai <eric@vericonnect.ie>\n"
+"Language-Team: Eric Muigai <eric@vericonnect.ie>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-28T12:26:38+00:00\n"
+"PO-Revision-Date: 2023-04-28 16:08+0100\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: groups\n"
+
+
+msgctxt "Groups section heading (add user)"
+msgid "Groups"
+msgstr "Assign to"
+
+msgctxt "Groups section heading (user profile)"
+msgid "Groups"
+msgstr "Assign to"
+
+msgctxt "Groups section heading (edit user)"
+msgid "Groups"
+msgstr "Assign to"
+
+msgid "Choose groups &hellip;"
+msgstr "Assign to &hellip;"
+
+msgid "The user is a member of the chosen groups."
+msgstr "The user is a member of the chosen local groups."
+
+
+msgctxt "Admin menu name"
+msgid "Groups"
+msgstr "Local"
