@@ -27,12 +27,6 @@ msgstr ""
 msgid "Translations for LASNTG Admin app."
 msgstr ""
 
-msgid "Full Name"
-msgstr "Vol Naam"
-
-msgid "Employee Number"
-msgstr "Werker Nommer"
-
 msgid "Products"
 msgstr "Courses"
 
@@ -56,4 +50,3 @@ msgstr "%d spaces left"
 
 msgid "Not in stock"
 msgstr "No spaces available"
-

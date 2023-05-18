@@ -1166,3 +1166,12 @@ msgstr "Could not grant access - the user may already have permission for this f
 
 msgid "Stock"
 msgstr "Capacity"
+
+msgid "Edit Order"
+msgstr "Capacity"
+
+msgid "WooCommerce"
+msgstr "Finance"
+
+msgid "Filter by registered customer"
+msgstr "Filter by Training Officer"
