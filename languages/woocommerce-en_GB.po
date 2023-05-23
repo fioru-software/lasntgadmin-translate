@@ -1166,3 +1166,44 @@ msgstr "Could not grant access - the user may already have permission for this f
 
 msgid "Stock"
 msgstr "Capacity"
+
+msgid "Edit Order"
+msgstr "Capacity"
+
+msgid "WooCommerce"
+msgstr "Finance"
+
+msgid "Filter by registered customer"
+msgstr "Filter by Training Officer"
+
+msgid "Publish"
+msgstr "Update"
+
+#: includes/admin/class-wc-admin-pointers.php:205
+msgid "Publish Your Product!"
+msgstr "Update Your Course!"
+
+#: includes/admin/class-wc-admin-pointers.php:206
+msgid ""
+"When you are finished editing your product, hit the \"Publish\" button to "
+"publish your product to your store."
+msgstr ""
+"When you are finished editing your course, hit the \"Update\" button to "
+"save your course to your store."
+
+
+#: includes/admin/class-wc-admin-post-types.php:119
+msgid "Product published. <a href=\"%s\">View Product</a>"
+msgstr "Course Updated. <a href=\"%s\">View Course</a>"
+
+#: includes/admin/class-wc-admin-post-types.php:117
+msgid "Product updated."
+msgstr "Course updated."
+
+#: includes/admin/class-wc-admin-post-types.php:118
+msgid "Product restored to revision from %s"
+msgstr "Course restored to revision from %s"
+
+#: includes/admin/class-wc-admin-post-types.php:120
+msgid "Product saved."
+msgstr "Course saved."

@@ -16,7 +16,7 @@ class Translations {
 	}
 
 	public static function add_filters(): void {
-		add_filter( 'load_textdomain_mofile', [ self::class, 'load_textdomain_mofile' ], 10, 2 );
+		add_filter( 'load_textdomain_mofile', [ self::class, 'load_textdomain_mofile' ], 1, 2 );
 	}
 
 	public static function load_textdomain() {
@@ -25,10 +25,11 @@ class Translations {
 	}
 
 	public static function load_textdomain_mofile( $mofile, $domain ) {
-		if ( in_array( $domain, [ 'lasntgadmin', 'woocommerce', 'groups' ] ) && false !== strpos( $mofile, WP_LANG_DIR . '/plugins/' ) ) {
+		if ( 'default' === $domain || ( in_array( $domain, [ 'lasntgadmin', 'woocommerce', 'groups' ] ) && false !== strpos( $mofile, WP_LANG_DIR . '/plugins/' ) ) ) {
 			$locale = apply_filters( 'plugin_locale', determine_locale(), $domain ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 			$mofile = WP_PLUGIN_DIR . '/' . PluginUtils::get_kebab_case_name() . '/languages/' . $domain . '-' . $locale . '.mo';
 		}
+
 		return $mofile;
 	}
 
