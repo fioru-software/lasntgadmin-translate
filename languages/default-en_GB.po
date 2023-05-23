@@ -23,3 +23,6 @@ msgstr "Documents"
 
 msgid "Profile"
 msgstr "My Profile"
+
+msgid "Publish"
+msgstr "Update"
