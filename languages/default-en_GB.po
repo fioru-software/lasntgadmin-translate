@@ -23,3 +23,32 @@ msgstr "Documents"
 
 msgid "Profile"
 msgstr "My Profile"
+
+msgid "Publish"
+msgstr "Update"
+
+msgid "Trash"
+msgstr "Bin"
+
+msgid "Move to Trash"
+msgstr "Move to Bin"
+
+msgctxt "verb"
+msgid "Trash"
+msgstr "Bin"
+
+msgctxt "noun"
+msgid "Trash"
+msgstr "Bin"
+
+msgid "Sorry, you are not allowed to move this item to the Trash."
+msgstr "Sorry, you are not allowed to move this item to the Bin."
+
+msgid "Error in moving the item to Trash."
+msgstr "Error in moving the item to Bin."
+
+msgid "Restore from Trash"
+msgstr "Restore from Bin"
+
+msgid "moved to the Trash."
+msgstr "moved to the Bin"

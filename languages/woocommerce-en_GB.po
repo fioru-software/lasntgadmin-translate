@@ -1207,3 +1207,6 @@ msgstr "Course restored to revision from %s"
 #: includes/admin/class-wc-admin-post-types.php:120
 msgid "Product saved."
 msgstr "Course saved."
+
+msgid "Trash"
+msgstr "Bin"
