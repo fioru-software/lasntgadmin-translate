@@ -15,6 +15,14 @@ wp i18n make-mo lasntgadmin-en_GB.po
 wp i18n make-mo woocommerce-en_GB.po
 ```
 
+For translations to be applied to Gutenberg strings, the line above the translation's `msgid` needs to contain `#: build/index.js:1`
+
+Then use `wp-cli` to generate `.json` files for Gutenberg apps.
+
+```sh
+wp i18n make-json lasntgadmin-en_GB.po --no-purge
+```
+
 ## Development
 
 Emails will be sent to [Mailtrap Inbox](https://mailtrap.io/). Credentials are available on our [Bitwarden](https://bitwarden.veri.ie).
