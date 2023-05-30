@@ -1,6 +1,7 @@
 <?php
 
 use Lasntg\Admin\Example;
+use Lasntg\Admin\Translate\PluginUtils;
 
 /**
  * Class SampleTest
@@ -11,7 +12,7 @@ use Lasntg\Admin\Example;
 /**
  * Example test case.
  */
-class ExampleTest extends WP_UnitTestCase {
+class PluginUtilsTest extends WP_UnitTestCase {
 
     public function set_up() {
         parent::set_up();
@@ -20,8 +21,11 @@ class ExampleTest extends WP_UnitTestCase {
 	/**
 	 * A single example test.
 	 */
-	public function testSingleton() {
+	public function testGetCamelCaseName() {
 		// Replace this with some actual testing code.
-        $this->assertInstanceOf( Example::class, Example::get_instance());
+        $this->assertSame(
+            'lasntgadmin_translate',
+            PluginUtils::get_camel_case_name()
+        );
 	}
 }
