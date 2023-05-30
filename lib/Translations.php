@@ -3,6 +3,8 @@
 namespace Lasntg\Admin\Translate;
 
 use Lasntg\Admin\Translate\PluginUtils;
+use Lasntg\Admin\Orders\PageUtils as OrderPageUtils;
+use Lasntg\Admin\Dashboard\GrantExplorerWidget;
 
 class Translations {
 
@@ -13,10 +15,29 @@ class Translations {
 
 	public static function add_actions(): void {
 		add_action( 'init', [ self::class, 'load_textdomain' ] );
+		add_action( 'admin_enqueue_scripts', [ self::class, 'load_script_translations' ], 100 );
 	}
 
 	public static function add_filters(): void {
 		add_filter( 'load_textdomain_mofile', [ self::class, 'load_textdomain_mofile' ], 1, 2 );
+	}
+
+	/**
+	 * Loads translation for Gutenberg apps. The handle should match.
+	 */
+	public static function load_script_translations() {
+		// Admin Order App.
+		wp_set_script_translations(
+			OrderPageUtils::get_admin_order_script_handle(),
+			'lasntgadmin',
+			WP_PLUGIN_DIR . '/' . PluginUtils::get_kebab_case_name() . '/languages'
+		);
+		// Grant Explorer Widget.
+		wp_set_script_translations(
+			GrantExplorerWidget::get_grant_explorer_widget_script_handle(),
+			'lasntgadmin',
+			WP_PLUGIN_DIR . '/' . PluginUtils::get_kebab_case_name() . '/languages'
+		);
 	}
 
 	public static function load_textdomain() {
