@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
+    "content-hash": "973cc1cbbd4f81338d63a8118e2fd1c2",
+=======
     "content-hash": "ba03d8d756c3c75e2c5fe43b836aa884",
+>>>>>>> master
     "packages": [
         {
             "name": "composer/installers",
@@ -154,16 +158,16 @@
         },
         {
             "name": "fioru/lasntgadmin-attendees",
-            "version": "3.6.1",
+            "version": "3.6.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:fioru-software/lasntgadmin-attendees.git",
-                "reference": "ad67f3f4f2e4b1945aa30e8bb65040688bbef08e"
+                "reference": "083a227fc57840c743543512ea62cc2906dbbdac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-attendees/zipball/ad67f3f4f2e4b1945aa30e8bb65040688bbef08e",
-                "reference": "ad67f3f4f2e4b1945aa30e8bb65040688bbef08e",
+                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-attendees/zipball/083a227fc57840c743543512ea62cc2906dbbdac",
+                "reference": "083a227fc57840c743543512ea62cc2906dbbdac",
                 "shasum": ""
             },
             "require": {
@@ -223,10 +227,10 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/fioru-software/lasntgadmin-attendees/tree/3.6.1",
+                "source": "https://github.com/fioru-software/lasntgadmin-attendees/tree/3.6.2",
                 "issues": "https://github.com/fioru-software/lasntgadmin-attendees/issues"
             },
-            "time": "2023-05-18T08:50:57+00:00"
+            "time": "2023-06-06T18:03:52+00:00"
         },
         {
             "name": "fioru/lasntgadmin-dashboard",
@@ -453,16 +457,16 @@
         },
         {
             "name": "fioru/lasntgadmin-orders",
-            "version": "1.7.0",
+            "version": "1.7.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:fioru-software/lasntgadmin-orders.git",
-                "reference": "7614dd4542bb34ed1de5c3570389cc6e7211ec41"
+                "reference": "fac1ed68f4f54533957ca41bfb113e298ea98a4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-orders/zipball/7614dd4542bb34ed1de5c3570389cc6e7211ec41",
-                "reference": "7614dd4542bb34ed1de5c3570389cc6e7211ec41",
+                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-orders/zipball/fac1ed68f4f54533957ca41bfb113e298ea98a4c",
+                "reference": "fac1ed68f4f54533957ca41bfb113e298ea98a4c",
                 "shasum": ""
             },
             "require": {
@@ -524,10 +528,10 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/fioru-software/lasntgadmin-orders/tree/1.7.0",
+                "source": "https://github.com/fioru-software/lasntgadmin-orders/tree/1.7.4",
                 "issues": "https://github.com/fioru-software/lasntgadmin-orders/issues"
             },
-            "time": "2023-05-18T14:19:55+00:00"
+            "time": "2023-06-07T10:47:12+00:00"
         },
         {
             "name": "fioru/lasntgadmin-products",
@@ -1577,39 +1581,45 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "dev-master",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "612a8f9839a296edd9e2c23334f39c2fd8457ee0"
+                "reference": "bb805e3017b14ae361338fde78dd03b23378ef4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/612a8f9839a296edd9e2c23334f39c2fd8457ee0",
-                "reference": "612a8f9839a296edd9e2c23334f39c2fd8457ee0",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/bb805e3017b14ae361338fde78dd03b23378ef4d",
+                "reference": "bb805e3017b14ae361338fde78dd03b23378ef4d",
                 "shasum": ""
             },
             "require": {
                 "hamcrest/hamcrest-php": "^2.0.1",
                 "lib-pcre": ">=7.0",
-                "php": "^7.3 || ^8.0"
+                "php": "^7.4 || ^8.0"
             },
             "conflict": {
                 "phpunit/phpunit": "<8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5 || ^9.3"
+                "phpunit/phpunit": "^8.5 || ^9.3",
+                "psalm/plugin-phpunit": "^0.18",
+                "vimeo/psalm": "^5.9"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6.x-dev"
+                    "dev-main": "1.6.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Mockery": "library/"
+                "files": [
+                    "library/helpers.php",
+                    "library/Mockery.php"
+                ],
+                "psr-4": {
+                    "Mockery\\": "library/Mockery"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1644,9 +1654,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mockery/mockery/issues",
-                "source": "https://github.com/mockery/mockery/tree/master"
+                "source": "https://github.com/mockery/mockery/tree/main"
             },
-            "time": "2023-05-09T15:00:16+00:00"
+            "time": "2023-06-07T09:18:36+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1889,12 +1899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phar-io/manifest.git",
-                "reference": "36d8a21e851a9512db2b086dc5ac2c61308f0138"
+                "reference": "67729272c564ab9f953c81f48db44e8b1cb1e1c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phar-io/manifest/zipball/36d8a21e851a9512db2b086dc5ac2c61308f0138",
-                "reference": "36d8a21e851a9512db2b086dc5ac2c61308f0138",
+                "url": "https://api.github.com/repos/phar-io/manifest/zipball/67729272c564ab9f953c81f48db44e8b1cb1e1c3",
+                "reference": "67729272c564ab9f953c81f48db44e8b1cb1e1c3",
                 "shasum": ""
             },
             "require": {
@@ -1903,7 +1913,7 @@
                 "ext-phar": "*",
                 "ext-xmlwriter": "*",
                 "phar-io/version": "^3.0.1",
-                "php": "^7.2 || ^8.0"
+                "php": "^7.3 || ^8.0"
             },
             "default-branch": true,
             "type": "library",
@@ -1949,7 +1959,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-21T19:55:33+00:00"
+            "time": "2023-06-01T14:19:47+00:00"
         },
         {
             "name": "phar-io/version",
@@ -2640,12 +2650,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
+<<<<<<< HEAD
+                "reference": "70e8497b3c2201b3523b3c160958b3a7c696c7e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/70e8497b3c2201b3523b3c160958b3a7c696c7e6",
+                "reference": "70e8497b3c2201b3523b3c160958b3a7c696c7e6",
+=======
                 "reference": "0da2376003743c901b54aa2e7dae3d9dd49edf8c"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0da2376003743c901b54aa2e7dae3d9dd49edf8c",
                 "reference": "0da2376003743c901b54aa2e7dae3d9dd49edf8c",
+>>>>>>> master
                 "shasum": ""
             },
             "require": {
@@ -2735,7 +2754,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2023-06-01T06:02:40+00:00"
+=======
             "time": "2023-05-28T06:58:24+00:00"
+>>>>>>> master
         },
         {
             "name": "psr/container",
@@ -5213,12 +5236,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast/PHPUnit-Polyfills.git",
-                "reference": "d5a196cc2cb39a9efeeff72ce712efef3c107a45"
+                "reference": "f4c425a8aae6c1f2d448289b42311d58af5ff7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Yoast/PHPUnit-Polyfills/zipball/d5a196cc2cb39a9efeeff72ce712efef3c107a45",
-                "reference": "d5a196cc2cb39a9efeeff72ce712efef3c107a45",
+                "url": "https://api.github.com/repos/Yoast/PHPUnit-Polyfills/zipball/f4c425a8aae6c1f2d448289b42311d58af5ff7a4",
+                "reference": "f4c425a8aae6c1f2d448289b42311d58af5ff7a4",
                 "shasum": ""
             },
             "require": {
@@ -5265,7 +5288,7 @@
                 "issues": "https://github.com/Yoast/PHPUnit-Polyfills/issues",
                 "source": "https://github.com/Yoast/PHPUnit-Polyfills"
             },
-            "time": "2023-05-19T05:47:22+00:00"
+            "time": "2023-06-06T15:51:44+00:00"
         }
     ],
     "aliases": [],

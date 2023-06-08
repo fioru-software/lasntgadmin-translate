@@ -44,11 +44,11 @@ msgstr "Course name"
 
 #: build/index.js:1
 msgid "Order"
-msgstr "Enrollment"
+msgstr "Enrolment"
 
 #: build/index.js:1
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "%d in stock"
 msgstr "%d spaces left"
