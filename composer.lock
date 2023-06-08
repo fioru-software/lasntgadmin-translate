@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "973cc1cbbd4f81338d63a8118e2fd1c2",
-=======
-    "content-hash": "ba03d8d756c3c75e2c5fe43b836aa884",
->>>>>>> master
+    "content-hash": "16ad5144edbe2e3dc9cb2c0107ac3112",
     "packages": [
         {
             "name": "composer/installers",
@@ -234,16 +230,16 @@
         },
         {
             "name": "fioru/lasntgadmin-dashboard",
-            "version": "1.0.2",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:fioru-software/lasntgadmin-dashboard.git",
-                "reference": "65793fffe866f65d06b49a0c6309eb30706c70f2"
+                "reference": "64f56a50e04f5ddf932d86292c004a6e9209895e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-dashboard/zipball/65793fffe866f65d06b49a0c6309eb30706c70f2",
-                "reference": "65793fffe866f65d06b49a0c6309eb30706c70f2",
+                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-dashboard/zipball/64f56a50e04f5ddf932d86292c004a6e9209895e",
+                "reference": "64f56a50e04f5ddf932d86292c004a6e9209895e",
                 "shasum": ""
             },
             "require": {
@@ -305,10 +301,10 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/fioru-software/lasntgadmin-dashboard/tree/1.0.2",
+                "source": "https://github.com/fioru-software/lasntgadmin-dashboard/tree/1.0.4",
                 "issues": "https://github.com/fioru-software/lasntgadmin-dashboard/issues"
             },
-            "time": "2023-05-15T13:58:00+00:00"
+            "time": "2023-05-31T09:45:46+00:00"
         },
         {
             "name": "fioru/lasntgadmin-grant-funded-payment-gateway",
@@ -535,16 +531,16 @@
         },
         {
             "name": "fioru/lasntgadmin-products",
-            "version": "5.9.2",
+            "version": "5.9.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:fioru-software/lasntgadmin-products.git",
-                "reference": "2fb732b16b49400d46e7ac34709c2075375ca7c2"
+                "reference": "2f5df38c71bbc24aa2878fdd953cac193fdd8a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-products/zipball/2fb732b16b49400d46e7ac34709c2075375ca7c2",
-                "reference": "2fb732b16b49400d46e7ac34709c2075375ca7c2",
+                "url": "https://api.github.com/repos/fioru-software/lasntgadmin-products/zipball/2f5df38c71bbc24aa2878fdd953cac193fdd8a9d",
+                "reference": "2f5df38c71bbc24aa2878fdd953cac193fdd8a9d",
                 "shasum": ""
             },
             "require": {
@@ -605,10 +601,10 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/fioru-software/lasntgadmin-products/tree/5.9.2",
+                "source": "https://github.com/fioru-software/lasntgadmin-products/tree/5.9.4",
                 "issues": "https://github.com/fioru-software/lasntgadmin-products/issues"
             },
-            "time": "2023-05-23T10:46:09+00:00"
+            "time": "2023-06-08T08:04:50+00:00"
         },
         {
             "name": "fioru/lasntgadmin-subscriptions",
@@ -2650,21 +2646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-<<<<<<< HEAD
                 "reference": "70e8497b3c2201b3523b3c160958b3a7c696c7e6"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/70e8497b3c2201b3523b3c160958b3a7c696c7e6",
                 "reference": "70e8497b3c2201b3523b3c160958b3a7c696c7e6",
-=======
-                "reference": "0da2376003743c901b54aa2e7dae3d9dd49edf8c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0da2376003743c901b54aa2e7dae3d9dd49edf8c",
-                "reference": "0da2376003743c901b54aa2e7dae3d9dd49edf8c",
->>>>>>> master
                 "shasum": ""
             },
             "require": {
@@ -2754,11 +2741,7 @@
                     "type": "tidelift"
                 }
             ],
-<<<<<<< HEAD
             "time": "2023-06-01T06:02:40+00:00"
-=======
-            "time": "2023-05-28T06:58:24+00:00"
->>>>>>> master
         },
         {
             "name": "psr/container",
@@ -5179,12 +5162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress-Coding-Standards.git",
-                "reference": "a328aff1e0b05e55e61a02b9f4faae6482cfc3ad"
+                "reference": "3f608b2b0b2ef702f5917332d8b4f6606d3a45a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/a328aff1e0b05e55e61a02b9f4faae6482cfc3ad",
-                "reference": "a328aff1e0b05e55e61a02b9f4faae6482cfc3ad",
+                "url": "https://api.github.com/repos/WordPress/WordPress-Coding-Standards/zipball/3f608b2b0b2ef702f5917332d8b4f6606d3a45a6",
+                "reference": "3f608b2b0b2ef702f5917332d8b4f6606d3a45a6",
                 "shasum": ""
             },
             "require": {
@@ -5228,7 +5211,7 @@
                 "source": "https://github.com/WordPress/WordPress-Coding-Standards",
                 "wiki": "https://github.com/WordPress/WordPress-Coding-Standards/wiki"
             },
-            "time": "2023-05-28T19:30:57+00:00"
+            "time": "2023-06-08T05:06:46+00:00"
         },
         {
             "name": "yoast/phpunit-polyfills",
