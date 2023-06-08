@@ -43,10 +43,10 @@ msgid "Product name"
 msgstr "Course name"
 
 msgid "Order"
-msgstr "Enrollment"
+msgstr "Enrolment"
 
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "%d in stock"
 msgstr "%d spaces left"

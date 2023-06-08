@@ -563,14 +563,14 @@ msgstr[1] ""
 #: includes/admin/class-wc-admin-post-types.php:173
 msgid "%s product moved to the Trash."
 msgid_plural "%s products moved to the Trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s course moved to the Bin."
+msgstr[1] "%s course moved to the Bin."
 
 #: includes/admin/class-wc-admin-post-types.php:174
 msgid "%s product restored from the Trash."
 msgid_plural "%s products restored from the Trash."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s product restored from the Bin."
+msgstr[1] "%s products restored from the Bin."
 
 
 #: includes/admin/settings/class-wc-settings-products.php:468
@@ -629,13 +629,10 @@ msgid "No products found"
 msgstr "No courses  found"
 
 msgid "No products found in trash"
-msgstr "No courses found in  trash"
+msgstr "No courses found in  bin"
 
 msgid "Parent product"
 msgstr "Parent  course"
-
-msgid "Product image"
-msgstr "Course  image"
 
 msgid "Set product image"
 msgstr "Set course  image"
@@ -669,7 +666,7 @@ msgstr "A link to a course"
 
 ## Orders label
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "Order"
 msgstr "Enrollment"
@@ -693,35 +690,35 @@ msgid "View order"
 msgstr "View enrollment"
 
 msgid "Search orders"
-msgstr "Search enrollments"
+msgstr "Search enrolments"
 
 msgid "No orders found"
-msgstr "No enrollments found"
+msgstr "No enrolments found"
 
 msgid "No orders found in trash"
-msgstr "No enrollments found in trash"
+msgstr "No enrolments found in bin"
 
 msgid "Parent orders"
-msgstr "Parent enrollments"
+msgstr "Parent enrolments"
 
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgctxt "Admin menu name"
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "Filter orders"
-msgstr "Filter enrollments"
+msgstr "Filter enrolments"
 
 msgid "Orders navigation"
-msgstr "Enrollments navigation"
+msgstr "Enrolments navigation"
 
 msgid "Orders list"
-msgstr "Enrollments list"
+msgstr "Enrolments list"
 
 msgid "When you receive a new order, it will appear here."
-msgstr "When you receive a new enrollment, it will appear here."
+msgstr "You have not created any Enrolments yet."
 
 
 #: includes/api/class-wc-api-orders.php:1275
@@ -835,13 +832,13 @@ msgstr "Could not grant access - the user may already have permission for this f
 msgid "<strong>%s order</strong> awaiting processing"
 msgid_plural "<strong>%s orders</strong> awaiting processing"
 msgstr[0] "<strong>%s enrollment</strong> awaiting processing"
-msgstr[1] "<strong>%s enrollments</strong> awaiting processing"
+msgstr[1] "<strong>%s enrolments</strong> awaiting processing"
 
 #: includes/admin/class-wc-admin-dashboard.php:153
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
 msgstr[0] "<strong>%s enrollment</strong> on-hold"
-msgstr[1] "<strong>%s enrollments</strong> on-hold"
+msgstr[1] "<strong>%s enrolments</strong> on-hold"
 
 
 #: includes/admin/class-wc-admin-meta-boxes.php:115
@@ -902,13 +899,13 @@ msgstr[1] ""
 
 #: includes/admin/class-wc-admin-post-types.php:181
 msgid "%s order moved to the Trash."
-msgid_plural "%s orders moved to the Trash."
+msgid_plural "%s orders moved to the Bin."
 msgstr[0] ""
 msgstr[1] ""
 
 #: includes/admin/class-wc-admin-post-types.php:182
 msgid "%s order restored from the Trash."
-msgid_plural "%s orders restored from the Trash."
+msgid_plural "%s orders restored from the Bin."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -930,7 +927,7 @@ msgstr[1] "%s enrollment statuses changed."
 #: includes/admin/class-wc-admin-reports.php:45
 #: includes/admin/reports/class-wc-report-customer-list.php:232
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 
 #: includes/admin/class-wc-admin-reports.php:54
@@ -997,12 +994,12 @@ msgstr "The payment gateway used to place this enrollment does not support autom
 msgid "%s previous order linked"
 msgid_plural "%s previous orders linked"
 msgstr[0] "%s previous enrollment linked"
-msgstr[1] "%s previous enrollments linked"
+msgstr[1] "%s previous enrolments linked"
 
 
 #: includes/admin/reports/class-wc-report-customer-list.php:175
 msgid "View orders"
-msgstr "View enrollments"
+msgstr "View enrolments"
 
 
 #: includes/admin/reports/class-wc-report-customer-list.php:234
@@ -1012,24 +1009,24 @@ msgstr "Last enrollment"
 #: includes/admin/reports/class-wc-report-customers.php:102
 #: includes/admin/reports/class-wc-report-customers.php:301
 msgid "Customer Orders"
-msgstr "Customer Enrollments"
+msgstr "Customer Enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:107
 #: includes/admin/reports/class-wc-report-customers.php:311
 msgid "Guest Orders"
-msgstr "Guest Enrollments"
+msgstr "Guest Enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:126
 msgid "orders"
-msgstr "enrollments"
+msgstr "enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:307
 msgid "customer orders"
-msgstr "customer enrollments"
+msgstr "customer enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:317
 msgid "guest orders"
-msgstr "guest enrollments"
+msgstr "guest enrolments"
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:351
 msgid ""
@@ -1047,7 +1044,7 @@ msgstr "This is the sum of the enrollment totals after any refunds and excluding
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:369
 msgid "%s orders placed"
-msgstr "%s enrollments placed"
+msgstr "%s enrolments placed"
 
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:380
@@ -1059,33 +1056,33 @@ msgstr[1] ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:520
 msgid "Number of orders"
-msgstr "Number of enrollments"
+msgstr "Number of enrolments"
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:146
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:148
 msgid "Number of Orders"
-msgstr "Number of Enrollments"
+msgstr "Number of Enrolments"
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:147
 msgid "This is the sum of the \"Tax Rows\" tax amount within your orders."
-msgstr "This is the sum of the \"Tax Rows\" tax amount within your enrollments."
+msgstr "This is the sum of the \"Tax Rows\" tax amount within your enrolments."
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:148
 msgid ""
 "This is the sum of the \"Tax Rows\" shipping tax amount within your orders."
-msgstr "This is the sum of the \"Tax Rows\" shipping tax amount within your enrollments."
+msgstr "This is the sum of the \"Tax Rows\" shipping tax amount within your enrolments."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:149
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr "This is the sum of the 'Enrollment Total' field within your enrollments."
+msgstr "This is the sum of the 'Enrollment Total' field within your enrolments."
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:150
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "This is the sum of the 'Shipping Total' field within your enrollments."
+msgstr "This is the sum of the 'Shipping Total' field within your enrolments."
 
 
 #: includes/admin/settings/class-wc-settings-accounts.php:62
@@ -1107,21 +1104,21 @@ msgstr "Endpoint for the Checkout &rarr; Enrollment Received page"
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
-msgstr "This is a demo store for testing purposes &mdash; no enrollments shall be fulfilled."
+msgstr "This is a demo store for testing purposes &mdash; no enrolments shall be fulfilled."
 
 
 #: includes/admin/settings/class-wc-settings-products.php:260
 msgid ""
 "Hold stock (for unpaid orders) for x minutes. When this limit is reached, "
 "the pending order will be cancelled. Leave blank to disable."
-msgstr "Hold stock (for unpaid enrollments) for x minutes. When this limit is reached, the pending enrollment will be cancelled. Leave blank to disable."
+msgstr "Hold stock (for unpaid enrolments) for x minutes. When this limit is reached, the pending enrollment will be cancelled. Leave blank to disable."
 
 
 #: includes/admin/settings/class-wc-settings-products.php:400
 msgid ""
 "Enable this option to grant access to downloads when orders are "
 "\"processing\", rather than \"completed\"."
-msgstr "Enable this option to grant access to downloads when enrollments are \"processing\", rather than \"completed\"."
+msgstr "Enable this option to grant access to downloads when enrolments are \"processing\", rather than \"completed\"."
 
 
 #: includes/admin/settings/views/html-webhooks-edit.php:57
@@ -1210,3 +1207,23 @@ msgstr "Course saved."
 
 msgid "Trash"
 msgstr "Bin"
+
+msgid "Move to Trash"
+msgstr "Move to Bin"
+
+#: includes/admin/class-wc-admin-webhooks-table-list.php:263
+msgid "Empty Trash"
+msgstr "Empty Bin"
+
+
+#: includes/class-wc-post-types.php:246
+msgid "No Products found in trash"
+msgstr "No Products found in bin"
+
+
+#: includes/class-wc-post-types.php:247
+msgid "Parent Product"
+msgstr "Parent Course"
+
+msgid " You are about to trash these items"
+msgstr " You are about to bin these items"

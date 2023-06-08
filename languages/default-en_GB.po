@@ -30,10 +30,17 @@ msgstr "Update"
 msgid "Trash"
 msgstr "Bin"
 
+msgid "Trash (%d)"
+msgstr "Bin (%d)"
+
 msgid "Move to Trash"
 msgstr "Move to Bin"
 
 msgctxt "verb"
+msgid "Trash"
+msgstr "Bin"
+
+msgctxt "post"
 msgid "Trash"
 msgstr "Bin"
 
@@ -52,3 +59,9 @@ msgstr "Restore from Bin"
 
 msgid "moved to the Trash."
 msgstr "moved to the Bin"
+
+msgid "Howdy, %s"
+msgstr "Hi, %s"
+
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgstr "Bin <span class=\"count\">(%s)</span>"
