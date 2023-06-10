@@ -55,3 +55,6 @@ msgstr "%d spaces left"
 
 msgid "Not in stock"
 msgstr "No spaces available"
+
+msgid "Trash (%s)"
+msgstr "Bin (%s)"

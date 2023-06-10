@@ -33,6 +33,28 @@ msgstr "Bin"
 msgid "Trash (%d)"
 msgstr "Bin (%d)"
 
+msgid "Trash <span class=\"count\">(%s)</span>"
+msgid_plural "Trash <span class=\"count\">(%s)</span>"
+msgstr[0] "Bin <span class=\"count\">(%s)</span>"
+msgstr[1] "Bin <span class=\"count\">(%s)</span>"
+
+msgid "Unable to trash changes."
+msgstr "Unable to bin changes."
+
+msgid "Whether to bypass Trash and force deletion."
+msgstr "Whether to bypass Bin and force deletion."
+
+#: wp-includes/media.php:4621
+msgid ""
+"You are about to trash these items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"You are about to delete these items.\n"
+"  Click 'Cancel' to stop, or 'OK' to delete."
+
+msgid "Trash it: %s"
+msgstr "Bin it: %s"
+
 msgid "Move to Trash"
 msgstr "Move to Bin"
 
@@ -63,5 +85,96 @@ msgstr "moved to the Bin"
 msgid "Howdy, %s"
 msgstr "Hi, %s"
 
+msgid "Media Library"
+msgstr "Documents Library"
+
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgstr "Bin <span class=\"count\">(%s)</span>"
+
+#: wp-includes/js/dist/block-editor.js:24533
+msgid "This image cannot be uploaded to your Media Library, but it can still be inserted as an external image."
+msgstr "This image cannot be uploaded to your Document Library, but it can still be inserted as an external image."
+
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media.php:501
+msgid "That file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That file cannot be found. Check your <a href=\"%s\">document library</a> and make sure it was not deleted."
+
+#. translators: %s: A list of valid video file extensions.
+#: wp-includes/widgets/class-wp-widget-media-video.php:51
+msgid "Sorry, the video at the supplied URL cannot be loaded. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
+msgstr "Sorry, the video at the supplied URL cannot be loaded. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-video.php:44
+msgid "That video cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That video cannot be found. Check your <a href=\"%s\">document library</a> and make sure it was not deleted."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-image.php:44
+msgid "That image cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That image cannot be found. Check your <a href=\"%s\">document library</a> and make sure it was not deleted."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-audio.php:44
+msgid "That audio file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That audio file cannot be found. Check your <a href=\"%s\">document library</a> and make sure it was not deleted."
+
+#: wp-includes/blocks/video/block.json
+msgctxt "block description"
+msgid "Embed a video from your media library or upload a new one."
+msgstr "Embed a video from your document library or upload a new one."
+
+#: wp-includes/js/dist/block-library.js:16875
+msgid "Upload a file or pick one from your media library."
+msgstr "Upload a file or pick one from your document library."
+
+#: wp-includes/js/dist/block-editor.js:48457
+#: wp-includes/js/dist/block-library.js:56610
+msgid "Upload a video file, pick one from your media library, or add one with a URL."
+msgstr "Upload a video file, pick one from your document library, or add one with a URL."
+
+#: wp-includes/js/dist/block-editor.js:48455
+#: wp-includes/js/dist/block-library.js:24208
+msgid "Upload an image file, pick one from your media library, or add one with a URL."
+msgstr "Upload an image file, pick one from your document library, or add one with a URL."
+
+#: wp-includes/js/dist/block-editor.js:48453
+msgid "Upload an audio file, pick one from your media library, or add one with a URL."
+msgstr "Upload an audio file, pick one from your document library, or add one with a URL."
+
+#: wp-includes/js/dist/block-editor.js:48450
+msgid "Upload a media file or pick one from your media library."
+msgstr "Upload a document file or pick one from your document library."
+
+#. translators: %s: file name
+#: wp-includes/js/dist/media-utils.js:705
+msgid "Error while uploading file %s to the media library."
+msgstr "Error while uploading file %s to the document library."
+
+#: wp-includes/widgets/class-wp-widget-media-video.php:30
+msgid "Displays a video from the media library or from YouTube, Vimeo, or another provider."
+msgstr "Displays a video from the media library or from YouTube, Vimeo, or another provider."
+
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media.php:501
+msgid "That file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-video.php:44
+msgid "That video cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That video cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-image.php:44
+msgid "That image cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That image cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+
+#. translators: %s: URL to media library.
+#: wp-includes/widgets/class-wp-widget-media-audio.php:44
+msgid "That audio file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."
+msgstr "That audio file cannot be found. Check your <a href=\"%s\">media library</a> and make sure it was not deleted."

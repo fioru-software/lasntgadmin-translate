@@ -46,11 +46,14 @@ class Translations {
 	}
 
 	public static function load_textdomain_mofile( $mofile, $domain ) {
+		
 		if ( 'default' === $domain || ( in_array( $domain, [ 'lasntgadmin', 'woocommerce', 'groups' ] ) && false !== strpos( $mofile, WP_LANG_DIR . '/plugins/' ) ) ) {
 			$locale = apply_filters( 'plugin_locale', determine_locale(), $domain ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 			$mofile = WP_PLUGIN_DIR . '/' . PluginUtils::get_kebab_case_name() . '/languages/' . $domain . '-' . $locale . '.mo';
 		}
-
+		if ( 'default' === $domain){
+			echo $mofile;
+		}
 		return $mofile;
 	}
 
