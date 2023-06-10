@@ -51,9 +51,7 @@ class Translations {
 			$locale = apply_filters( 'plugin_locale', determine_locale(), $domain ); // phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
 			$mofile = WP_PLUGIN_DIR . '/' . PluginUtils::get_kebab_case_name() . '/languages/' . $domain . '-' . $locale . '.mo';
 		}
-		if ( 'default' === $domain){
-			echo $mofile;
-		}
+		
 		return $mofile;
 	}
 
