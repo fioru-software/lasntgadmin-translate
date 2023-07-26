@@ -10,14 +10,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "POT-Creation-Date: 2023-04-28T12:26:38+00:00\n"
-"PO-Revision-Date: 2023-04-28 16:07+0100\n"
+"PO-Revision-Date: 2023-07-26 12:56+0100\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: woocommerce\n"
 
-
-msgid "Products"
-msgstr "Courses"
+msgid "Search products&hellip;"
+msgstr "Search courses&hellip;"
 
 msgctxt "Admin menu name"
 msgid "Products"
@@ -34,12 +34,6 @@ msgstr "Create Course"
 
 msgid "Create Products"
 msgstr "Create Courses"
-
-msgid "Add new product"
-msgstr "Add new Course"
-
-msgid "Edit product"
-msgstr "Edit Course"
 
 msgid "Product name"
 msgstr "Course name"
@@ -79,9 +73,6 @@ msgstr "Course gallery"
 
 msgid "Add product gallery images"
 msgstr "Add course gallery images"
-
-msgid "Edit Product"
-msgstr "Edit course"
 
 msgid "Awaiting product image"
 msgstr "Awaiting course image"
@@ -444,11 +435,6 @@ msgstr "WooCommerce Courses"
 msgid "Number of products to show"
 msgstr "Number of courses to show"
 
-
-#: includes/widgets/class-wc-widget-products.php:45
-msgid "All Products"
-msgstr "All Courses"
-
 #: includes/widgets/class-wc-widget-products.php:46
 msgid "Featured Products"
 msgstr "Featured Courses"
@@ -584,89 +570,74 @@ msgstr "Course Ratings"
 msgid "Downloadable Products"
 msgstr "Downloadable Courses"
 
-
-## Product labels
-msgid "Products"
-msgstr "Courses"
-
 msgid "Product"
 msgstr "Course"
 
 msgid "product"
 msgstr "course"
 
-msgid "All Products"
-msgstr "All  Courses"
-
 msgid "Products"
 msgstr "Courses"
 
-msgid "Add New"
-msgstr "Add  New"
-
 msgid "Add new product"
-msgstr "Add new  course"
+msgstr "Add new course"
 
 msgid "Edit"
 msgstr "Edit"
 
 msgid "Edit product"
-msgstr "Edit  course"
+msgstr "Edit course"
 
 msgid "New product"
-msgstr "New  course"
+msgstr "New course"
 
 msgid "View product"
-msgstr "View  course"
+msgstr "View course"
 
 msgid "View products"
-msgstr "View  courses"
+msgstr "View courses"
 
 msgid "Search products"
-msgstr "Search  courses"
+msgstr "Search courses"
 
 msgid "No products found"
-msgstr "No courses  found"
+msgstr "No courses found"
 
 msgid "No products found in trash"
-msgstr "No courses found in  bin"
+msgstr "No courses found in bin"
 
 msgid "Parent product"
-msgstr "Parent  course"
+msgstr "Parent course"
 
 msgid "Set product image"
-msgstr "Set course  image"
+msgstr "Set course image"
 
 msgid "Remove product image"
-msgstr "Remove course  image"
+msgstr "Remove course image"
 
 msgid "Use as product image"
-msgstr "Use as course  image"
+msgstr "Use as course image"
 
 msgid "Insert into product"
-msgstr "Insert into  course"
+msgstr "Insert into course"
 
 msgid "Uploaded to this product"
-msgstr "Uploaded to this  course"
+msgstr "Uploaded to this course"
 
 msgid "Filter products"
-msgstr "Filter  courses"
+msgstr "Filter courses"
 
 msgid "Products navigation"
-msgstr "Courses  navigation"
+msgstr "Courses navigation"
 
 msgid "Products list"
-msgstr "Courses  list"
+msgstr "Courses list"
 
 msgid "Product Link"
-msgstr "Course  Link "
+msgstr "Course Link "
 
 msgid "A link to a product"
 msgstr "A link to a course"
-
-## Orders label
-msgid "Orders"
-msgstr "Enrolments"
 
 msgid "Order"
 msgstr "Enrolment"
@@ -676,9 +647,6 @@ msgstr "Add enrolment"
 
 msgid "Add new order"
 msgstr "Add new enrolment"
-
-msgid "Edit"
-msgstr "Edit"
 
 msgid "Edit order"
 msgstr "Edit enrolment"
@@ -700,9 +668,6 @@ msgstr "No enrolments found in bin"
 
 msgid "Parent orders"
 msgstr "Parent enrolments"
-
-msgid "Orders"
-msgstr "Enrolments"
 
 msgctxt "Admin menu name"
 msgid "Orders"
@@ -808,26 +773,6 @@ msgstr "Cannot create enrolment refund, please try again"
 msgid "The order refund ID provided is not associated with the order"
 msgstr "The enrolment refund ID provided is not associated with the enrolment"
 
-
-#: includes/admin/class-wc-admin-assets.php:214
-msgid ""
-"Are you sure you want to remove the selected items? If you have previously "
-"reduced this item's stock, or this order was submitted by a customer, you "
-"will need to manually restore the item's stock."
-msgstr "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this enrolment was submitted by a customer, you will need to manually restore the item's stock."
-
-#: includes/admin/class-wc-admin-assets.php:229
-msgid "Calculate totals based on order items, discounts, and shipping?"
-msgstr "Calculate totals based on enrolment items, discounts, and shipping?"
-
-#: includes/admin/class-wc-admin-assets.php:261
-msgid ""
-"Could not grant access - the user may already have permission for this file "
-"or billing email is not set. Ensure the billing email is set, and the order "
-"has been saved."
-msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrolment has been saved."
-
-
 #: includes/admin/class-wc-admin-dashboard.php:148
 msgid "<strong>%s order</strong> awaiting processing"
 msgid_plural "<strong>%s orders</strong> awaiting processing"
@@ -929,11 +874,9 @@ msgstr[1] "%s enrolment statuses changed."
 msgid "Orders"
 msgstr "Enrolments"
 
-
 #: includes/admin/class-wc-admin-reports.php:54
 msgid "Sales by product"
 msgstr "Sales by course"
-
 
 #: includes/admin/class-wc-admin-setup-wizard.php:262
 msgid ""
@@ -1140,7 +1083,6 @@ msgid ""
 "statuses."
 msgstr "A list of taxonomy terms that can be used in regard to enrolment/course statuses."
 
-
 #: includes/admin/class-wc-admin-assets.php:214
 msgid ""
 "Are you sure you want to remove the selected items? If you have previously "
@@ -1148,11 +1090,9 @@ msgid ""
 "will need to manually restore the item's stock."
 msgstr "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this enrolment was submitted by a customer, you will need to manually restore the item's stock."
 
-
 #: includes/admin/class-wc-admin-assets.php:229
 msgid "Calculate totals based on order items, discounts, and shipping?"
 msgstr "Calculate totals based on enrolment items, discounts, and shipping?"
-
 
 #: includes/admin/class-wc-admin-assets.php:261
 msgid ""
