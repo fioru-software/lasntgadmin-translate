@@ -23,6 +23,9 @@ msgctxt "Admin menu name"
 msgid "Products"
 msgstr "Courses"
 
+msgid "Products"
+msgstr "Courses"
+
 msgid "Start Import"
 msgstr "Begin Invoer"
 
@@ -31,7 +34,7 @@ msgstr "Gereed om iets te verkoop?"
 
 msgid "Create Product"
 msgstr "Create Course"
-
+## Plural
 msgid "Create Products"
 msgstr "Create Courses"
 
@@ -209,9 +212,43 @@ msgstr "Course capacity is low"
 msgid "Product out of stock"
 msgstr "Course capacity is full"
 
+#: includes/class-wc-emails.php:412
+msgid "%s is out of stock."
+msgstr "%s is full."
+
+
+#: includes/admin/class-wc-admin-dashboard.php:153
+msgid "<strong>%s order</strong> on-hold"
+msgid_plural "<strong>%s orders</strong> on-hold"
+msgstr[0] "<strong>%s enrollment</strong> on-hold"
+msgstr[1] "<strong>%s enrollments</strong> on-hold"
+
+#: includes/admin/class-wc-admin-dashboard.php:158
+msgid "<strong>%s product</strong> low in stock"
+msgid_plural "<strong>%s products</strong> low in stock"
+msgstr[0] "<strong>%s course</strong> low in space"
+msgstr[1] "<strong>%s courses</strong> low in space"
+
+#: includes/admin/class-wc-admin-dashboard.php:163
+msgid "<strong>%s product</strong> out of stock"
+msgid_plural "<strong>%s products</strong> out of stock"
+msgstr[0] "<strong>%s course</strong> is full"
+msgstr[1] "<strong>%s courses</strong> are full"
+
 #: includes/class-wc-emails.php:441
 msgid "Product Backorder"
 msgstr "Course Backorder"
+
+msgid "Out of stock"
+msgstr "Full"
+
+#: includes/admin/reports/class-wc-report-out-of-stock.php:25
+msgid "No out of stock products found."
+msgstr "No out of stock courses found."
+
+#: includes/admin/settings/class-wc-settings-products.php:283
+msgid "Enable out of stock notifications"
+msgstr "Enable course is full notifications"
 
 #: includes/class-wc-form-handler.php:674
 msgid "Please choose a product to add to your cart&hellip;"
@@ -221,6 +258,9 @@ msgstr "Please choose a course to add to your basket&hellip;"
 msgid "Please choose product options&hellip;"
 msgstr "Please choose course options&hellip;"
 
+#: includes/admin/settings/class-wc-settings-products.php:330
+msgid "Hide out of stock items from the catalog"
+msgstr "Hide courses that are full from the catalog"
 
 #: includes/class-wc-frontend-scripts.php:265
 msgid ""
@@ -576,9 +616,6 @@ msgstr "Course"
 msgid "product"
 msgstr "course"
 
-msgid "Products"
-msgstr "Courses"
-
 msgid "Add new product"
 msgstr "Add new course"
 
@@ -869,10 +906,6 @@ msgid_plural "%s order statuses changed."
 msgstr[0] "Order status changed."
 msgstr[1] "%s enrolment statuses changed."
 
-#: includes/admin/class-wc-admin-reports.php:45
-#: includes/admin/reports/class-wc-report-customer-list.php:232
-msgid "Orders"
-msgstr "Enrolments"
 
 #: includes/admin/class-wc-admin-reports.php:54
 msgid "Sales by product"
@@ -959,10 +992,6 @@ msgstr "Customer Enrolments"
 msgid "Guest Orders"
 msgstr "Guest Enrolments"
 
-#: includes/admin/reports/class-wc-report-customers.php:126
-msgid "orders"
-msgstr "enrolments"
-
 #: includes/admin/reports/class-wc-report-customers.php:307
 msgid "customer orders"
 msgstr "customer enrolments"
@@ -970,19 +999,6 @@ msgstr "customer enrolments"
 #: includes/admin/reports/class-wc-report-customers.php:317
 msgid "guest orders"
 msgstr "guest enrolments"
-
-#: includes/admin/reports/class-wc-report-sales-by-date.php:351
-msgid ""
-"This is the sum of the order totals after any refunds and including shipping"
-" and taxes."
-msgstr "This is the sum of the enrolment totals after any refunds and including shipping and taxes."
-
-
-#: includes/admin/reports/class-wc-report-sales-by-date.php:357
-msgid ""
-"This is the sum of the order totals after any refunds and excluding shipping"
-" and taxes."
-msgstr "This is the sum of the enrolment totals after any refunds and excluding shipping and taxes."
 
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:369
@@ -1000,13 +1016,6 @@ msgstr[1] ""
 #: includes/admin/reports/class-wc-report-sales-by-date.php:520
 msgid "Number of orders"
 msgstr "Number of enrolments"
-
-
-#: includes/admin/reports/class-wc-report-taxes-by-code.php:146
-#: includes/admin/reports/class-wc-report-taxes-by-date.php:148
-msgid "Number of Orders"
-msgstr "Number of Enrolments"
-
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:147
 msgid "This is the sum of the \"Tax Rows\" tax amount within your orders."
@@ -1088,7 +1097,7 @@ msgid ""
 "Are you sure you want to remove the selected items? If you have previously "
 "reduced this item's stock, or this order was submitted by a customer, you "
 "will need to manually restore the item's stock."
-msgstr "Are you sure you want to remove the selected items? If you have previously reduced this item's stock, or this enrolment was submitted by a customer, you will need to manually restore the item's stock."
+msgstr "Are you sure you want to remove the selected items? If you have previously reduced this course's enrollment, or this enrolment was submitted by a customer, you will need to manually restore the course's enrollment."
 
 #: includes/admin/class-wc-admin-assets.php:229
 msgid "Calculate totals based on order items, discounts, and shipping?"
@@ -1105,7 +1114,7 @@ msgid "Stock"
 msgstr "Capacity"
 
 msgid "Edit Order"
-msgstr "Capacity"
+msgstr "Edit Enrollment"
 
 msgid "WooCommerce"
 msgstr "Finance"
