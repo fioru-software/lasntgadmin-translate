@@ -220,8 +220,8 @@ msgstr "%s is full."
 #: includes/admin/class-wc-admin-dashboard.php:153
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
-msgstr[0] "<strong>%s enrollment</strong> on-hold"
-msgstr[1] "<strong>%s enrollments</strong> on-hold"
+msgstr[0] "<strong>%s enrolment</strong> on-hold"
+msgstr[1] "<strong>%s enrolments</strong> on-hold"
 
 #: includes/admin/class-wc-admin-dashboard.php:158
 msgid "<strong>%s product</strong> low in stock"
@@ -677,53 +677,53 @@ msgid "A link to a product"
 msgstr "A link to a course"
 
 msgid "Order"
-msgstr "Enrollment"
+msgstr "Enrolment"
 
 msgid "Add order"
-msgstr "Add enrollment"
+msgstr "Add enrolment"
 
 msgid "Add new order"
-msgstr "Add new enrollment"
+msgstr "Add new enrolment"
 
 msgid "Edit order"
-msgstr "Edit enrollment"
+msgstr "Edit enrolment"
 
 msgid "New order"
-msgstr "New enrollment"
+msgstr "New enrolment"
 
 msgid "View order"
-msgstr "View enrollment"
+msgstr "View enrolment"
 
 msgid "Search orders"
-msgstr "Search enrollments"
+msgstr "Search enrolments"
 
 msgid "No orders found"
-msgstr "No enrollments found"
+msgstr "No enrolments found"
 
 msgid "No orders found in trash"
-msgstr "No enrollments found in bin"
+msgstr "No enrolments found in bin"
 
 msgid "Parent orders"
-msgstr "Parent enrollments"
+msgstr "Parent enrolments"
 
 msgctxt "Admin menu name"
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "Orders"
-msgstr "Enrollments"
+msgstr "Enrolments"
 
 msgid "Filter orders"
-msgstr "Filter enrollments"
+msgstr "Filter enrolments"
 
 msgid "Orders navigation"
-msgstr "Enrollments navigation"
+msgstr "Enrolments navigation"
 
 msgid "Orders list"
-msgstr "Enrollments list"
+msgstr "Enrolments list"
 
 msgid "When you receive a new order, it will appear here."
-msgstr "You have not created any Enrollments yet."
+msgstr "You have not created any Enrolments yet."
 
 
 #: includes/api/class-wc-api-orders.php:1275
@@ -733,7 +733,7 @@ msgstr "You have not created any Enrollments yet."
 #: includes/api/v2/class-wc-api-orders.php:1382
 #: includes/api/v2/class-wc-api-orders.php:1444
 msgid "Invalid order note ID"
-msgstr "Invalid enrollment note ID"
+msgstr "Invalid enrolment note ID"
 
 #: includes/api/class-wc-api-orders.php:1281
 #: includes/api/class-wc-api-orders.php:1390
@@ -742,39 +742,39 @@ msgstr "Invalid enrollment note ID"
 #: includes/api/v2/class-wc-api-orders.php:1389
 #: includes/api/v2/class-wc-api-orders.php:1451
 msgid "An order note with the provided ID could not be found"
-msgstr "An enrollment note with the provided ID could not be found"
+msgstr "An enrolment note with the provided ID could not be found"
 
 #: includes/api/class-wc-api-orders.php:1315
 #: includes/api/v2/class-wc-api-orders.php:1314
 msgid "You do not have permission to create order notes"
-msgstr "You do not have permission to create enrollment notes"
+msgstr "You do not have permission to create enrolment notes"
 
 #: includes/api/class-wc-api-orders.php:1330
 #: includes/api/v2/class-wc-api-orders.php:1329
 msgid "Order note is required"
-msgstr "Enrollment note is required"
+msgstr "Enrolment note is required"
 
 #: includes/api/class-wc-api-orders.php:1339
 #: includes/api/v2/class-wc-api-orders.php:1338
 msgid "Cannot create order note, please try again"
-msgstr "Cannot create enrollment note, please try again"
+msgstr "Cannot create enrolment note, please try again"
 
 #: includes/api/class-wc-api-orders.php:1395
 #: includes/api/class-wc-api-orders.php:1457
 #: includes/api/v2/class-wc-api-orders.php:1394
 #: includes/api/v2/class-wc-api-orders.php:1456
 msgid "The order note ID provided is not associated with the order"
-msgstr "The enrollment note ID provided is not associated with the enrollment"
+msgstr "The enrolment note ID provided is not associated with the enrolment"
 
 #: includes/api/class-wc-api-orders.php:1464
 #: includes/api/v2/class-wc-api-orders.php:1463
 msgid "This order note cannot be deleted"
-msgstr "This enrollment note cannot be deleted"
+msgstr "This enrolment note cannot be deleted"
 
 #: includes/api/class-wc-api-orders.php:1469
 #: includes/api/v2/class-wc-api-orders.php:1468
 msgid "Permanently deleted order note"
-msgstr "Permanently deleted enrollment note"
+msgstr "Permanently deleted enrolment note"
 
 #: includes/api/class-wc-api-orders.php:1530
 #: includes/api/class-wc-api-orders.php:1692
@@ -783,7 +783,7 @@ msgstr "Permanently deleted enrollment note"
 #: includes/api/v2/class-wc-api-orders.php:1691
 #: includes/api/v2/class-wc-api-orders.php:1750
 msgid "Invalid order refund ID"
-msgstr "Invalid enrollment refund ID"
+msgstr "Invalid enrolment refund ID"
 
 #: includes/api/class-wc-api-orders.php:1537
 #: includes/api/class-wc-api-orders.php:1699
@@ -792,18 +792,18 @@ msgstr "Invalid enrollment refund ID"
 #: includes/api/v2/class-wc-api-orders.php:1698
 #: includes/api/v2/class-wc-api-orders.php:1757
 msgid "An order refund with the provided ID could not be found"
-msgstr "An enrollment refund with the provided ID could not be found"
+msgstr "An enrolment refund with the provided ID could not be found"
 
 #: includes/api/class-wc-api-orders.php:1606
 #: includes/api/v2/class-wc-api-orders.php:1605
 msgid "You do not have permission to create order refunds"
-msgstr "You do not have permission to create enrollment refunds"
+msgstr "You do not have permission to create enrolment refunds"
 
 
 #: includes/api/class-wc-api-orders.php:1631
 #: includes/api/v2/class-wc-api-orders.php:1630
 msgid "Cannot create order refund, please try again"
-msgstr "Cannot create enrollment refund, please try again"
+msgstr "Cannot create enrolment refund, please try again"
 
 
 #: includes/api/class-wc-api-orders.php:1704
@@ -811,57 +811,57 @@ msgstr "Cannot create enrollment refund, please try again"
 #: includes/api/v2/class-wc-api-orders.php:1703
 #: includes/api/v2/class-wc-api-orders.php:1762
 msgid "The order refund ID provided is not associated with the order"
-msgstr "The enrollment refund ID provided is not associated with the enrollment"
+msgstr "The enrolment refund ID provided is not associated with the enrolment"
 
 #: includes/admin/class-wc-admin-dashboard.php:148
 msgid "<strong>%s order</strong> awaiting processing"
 msgid_plural "<strong>%s orders</strong> awaiting processing"
-msgstr[0] "<strong>%s enrollment</strong> awaiting processing"
-msgstr[1] "<strong>%s enrollments</strong> awaiting processing"
+msgstr[0] "<strong>%s enrolment</strong> awaiting processing"
+msgstr[1] "<strong>%s enrolments</strong> awaiting processing"
 
 #: includes/admin/class-wc-admin-dashboard.php:153
 msgid "<strong>%s order</strong> on-hold"
 msgid_plural "<strong>%s orders</strong> on-hold"
-msgstr[0] "<strong>%s enrollment</strong> on-hold"
-msgstr[1] "<strong>%s enrollments</strong> on-hold"
+msgstr[0] "<strong>%s enrolment</strong> on-hold"
+msgstr[1] "<strong>%s enrolments</strong> on-hold"
 
 
 #: includes/admin/class-wc-admin-meta-boxes.php:115
 msgid ""
 "Note: Permissions for order items will automatically be granted when the "
 "order status changes to processing/completed."
-msgstr "Note: Permissions for enrollment items will automatically be granted when the enrollment status changes to processing/completed."
+msgstr "Note: Permissions for enrolment items will automatically be granted when the enrolment status changes to processing/completed."
 
 
 #: includes/admin/class-wc-admin-post-types.php:129
 #: includes/admin/class-wc-admin-post-types.php:132
 #: includes/admin/class-wc-admin-post-types.php:134
 msgid "Order updated."
-msgstr "Enrollment updated."
+msgstr "Enrolment updated."
 
 #: includes/admin/class-wc-admin-post-types.php:133
 msgid "Order restored to revision from %s"
-msgstr "Enrollment restored to revision from %s"
+msgstr "Enrolment restored to revision from %s"
 
 #: includes/admin/class-wc-admin-post-types.php:135
 msgid "Order saved."
-msgstr "Enrollment saved."
+msgstr "Enrolment saved."
 
 #: includes/admin/class-wc-admin-post-types.php:136
 msgid "Order submitted."
-msgstr "Enrollment submitted."
+msgstr "Enrolment submitted."
 
 #: includes/admin/class-wc-admin-post-types.php:137
 msgid "Order scheduled for: <strong>%1$s</strong>."
-msgstr "Enrollment scheduled for: <strong>%1$s</strong>."
+msgstr "Enrolment scheduled for: <strong>%1$s</strong>."
 
 #: includes/admin/class-wc-admin-post-types.php:139
 msgid "Order draft updated."
-msgstr "Enrollment draft updated."
+msgstr "Enrolment draft updated."
 
 #: includes/admin/class-wc-admin-post-types.php:140
 msgid "Order updated and email sent."
-msgstr "Enrollment updated and email sent."
+msgstr "Enrolment updated and email sent."
 
 
 #: includes/admin/class-wc-admin-post-types.php:178
@@ -897,17 +897,17 @@ msgstr[1] ""
 
 #: includes/admin/class-wc-admin-post-types.php:265
 msgid "Order Notes"
-msgstr "Enrollment Notes"
+msgstr "Enrolment Notes"
 
 #: includes/admin/class-wc-admin-post-types.php:1449
 msgid "Order status changed by bulk edit:"
-msgstr "Enrollment status changed by bulk edit:"
+msgstr "Enrolment status changed by bulk edit:"
 
 #: includes/admin/class-wc-admin-post-types.php:1483
 msgid "Order status changed."
 msgid_plural "%s order statuses changed."
 msgstr[0] "Order status changed."
-msgstr[1] "%s enrollment statuses changed."
+msgstr[1] "%s enrolment statuses changed."
 
 
 #: includes/admin/class-wc-admin-reports.php:54
@@ -928,85 +928,85 @@ msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:42
 msgid "Resend order emails"
-msgstr "Resend enrollment emails"
+msgstr "Resend enrolment emails"
 
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:192
 msgid "Order date:"
-msgstr "Enrollment date:"
+msgstr "Enrolment date:"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:196
 msgid "Order status:"
-msgstr "Enrollment status:"
+msgstr "Enrolment status:"
 
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:379
 msgid "Customer's notes about the order"
-msgstr "Customer's notes about the enrollment"
+msgstr "Customer's notes about the enrolment"
 
 
 #: includes/admin/meta-boxes/views/html-order-items.php:150
 msgid "This is the shipping and handling total costs for the order."
-msgstr "This is the shipping and handling total costs for the enrollment."
+msgstr "This is the shipping and handling total costs for the enrolment."
 
 
 #: includes/admin/meta-boxes/views/html-order-items.php:184
 msgid "Order Total"
-msgstr "Enrollment Total"
+msgstr "Enrolment Total"
 
 #: includes/admin/meta-boxes/views/html-order-items.php:235
 msgid "To edit this order change the status back to \"Pending\""
-msgstr "To edit this enrollment change the status back to \"Pending\""
+msgstr "To edit this enrolment change the status back to \"Pending\""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:235
 msgid "This order has been paid for and is no longer editable"
-msgstr "This enrollment has been paid for and is no longer editable"
+msgstr "This enrolment has been paid for and is no longer editable"
 
 
 #: includes/admin/meta-boxes/views/html-order-items.php:301
 msgid ""
 "The payment gateway used to place this order does not support automatic "
 "refunds."
-msgstr "The payment gateway used to place this enrollment does not support automatic refunds."
+msgstr "The payment gateway used to place this enrolment does not support automatic refunds."
 
 #: includes/admin/reports/class-wc-report-customer-list.php:51
 msgid "%s previous order linked"
 msgid_plural "%s previous orders linked"
-msgstr[0] "%s previous enrollment linked"
-msgstr[1] "%s previous enrollments linked"
+msgstr[0] "%s previous enrolment linked"
+msgstr[1] "%s previous enrolments linked"
 
 
 #: includes/admin/reports/class-wc-report-customer-list.php:175
 msgid "View orders"
-msgstr "View enrollments"
+msgstr "View enrolments"
 
 
 #: includes/admin/reports/class-wc-report-customer-list.php:234
 msgid "Last order"
-msgstr "Last enrollment"
+msgstr "Last enrolment"
 
 #: includes/admin/reports/class-wc-report-customers.php:102
 #: includes/admin/reports/class-wc-report-customers.php:301
 msgid "Customer Orders"
-msgstr "Customer Enrollments"
+msgstr "Customer Enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:107
 #: includes/admin/reports/class-wc-report-customers.php:311
 msgid "Guest Orders"
-msgstr "Guest Enrollments"
+msgstr "Guest Enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:307
 msgid "customer orders"
-msgstr "customer enrollments"
+msgstr "customer enrolments"
 
 #: includes/admin/reports/class-wc-report-customers.php:317
 msgid "guest orders"
-msgstr "guest enrollments"
+msgstr "guest enrolments"
 
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:369
 msgid "%s orders placed"
-msgstr "%s enrollments placed"
+msgstr "%s enrolments placed"
 
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:380
@@ -1018,106 +1018,106 @@ msgstr[1] ""
 
 #: includes/admin/reports/class-wc-report-sales-by-date.php:520
 msgid "Number of orders"
-msgstr "Number of enrollments"
+msgstr "Number of enrolments"
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:147
 msgid "This is the sum of the \"Tax Rows\" tax amount within your orders."
-msgstr "This is the sum of the \"Tax Rows\" tax amount within your enrollments."
+msgstr "This is the sum of the \"Tax Rows\" tax amount within your enrolments."
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:148
 msgid ""
 "This is the sum of the \"Tax Rows\" shipping tax amount within your orders."
-msgstr "This is the sum of the \"Tax Rows\" shipping tax amount within your enrollments."
+msgstr "This is the sum of the \"Tax Rows\" shipping tax amount within your enrolments."
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:149
 msgid "This is the sum of the 'Order Total' field within your orders."
-msgstr "This is the sum of the 'Enrollment Total' field within your enrollments."
+msgstr "This is the sum of the 'Enrolment Total' field within your enrolments."
 
 
 #: includes/admin/reports/class-wc-report-taxes-by-date.php:150
 msgid "This is the sum of the 'Shipping Total' field within your orders."
-msgstr "This is the sum of the 'Shipping Total' field within your enrollments."
+msgstr "This is the sum of the 'Shipping Total' field within your enrolments."
 
 
 #: includes/admin/settings/class-wc-settings-accounts.php:62
 msgid "Endpoint for the My Account &rarr; View Order page"
-msgstr "Endpoint for the My Account &rarr; View Enrollment page"
+msgstr "Endpoint for the My Account &rarr; View Enrolment page"
 
 
 #: includes/admin/settings/class-wc-settings-checkout.php:173
 msgid "Order Received"
-msgstr "Enrollment Received"
+msgstr "Enrolment Received"
 
 
 #: includes/admin/settings/class-wc-settings-checkout.php:174
 msgid "Endpoint for the Checkout &rarr; Order Received page"
-msgstr "Endpoint for the Checkout &rarr; Enrollment Received page"
+msgstr "Endpoint for the Checkout &rarr; Enrolment Received page"
 
 
 #: includes/admin/settings/class-wc-settings-general.php:114
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
-msgstr "This is a demo store for testing purposes &mdash; no enrollments shall be fulfilled."
+msgstr "This is a demo store for testing purposes &mdash; no enrolments shall be fulfilled."
 
 
 #: includes/admin/settings/class-wc-settings-products.php:260
 msgid ""
 "Hold stock (for unpaid orders) for x minutes. When this limit is reached, "
 "the pending order will be cancelled. Leave blank to disable."
-msgstr "Hold stock (for unpaid enrollments) for x minutes. When this limit is reached, the pending enrollment will be cancelled. Leave blank to disable."
+msgstr "Hold stock (for unpaid enrolments) for x minutes. When this limit is reached, the pending enrolment will be cancelled. Leave blank to disable."
 
 
 #: includes/admin/settings/class-wc-settings-products.php:400
 msgid ""
 "Enable this option to grant access to downloads when orders are "
 "\"processing\", rather than \"completed\"."
-msgstr "Enable this option to grant access to downloads when enrollments are \"processing\", rather than \"completed\"."
+msgstr "Enable this option to grant access to downloads when enrolments are \"processing\", rather than \"completed\"."
 
 
 #: includes/admin/settings/views/html-webhooks-edit.php:57
 msgid "Order Created"
-msgstr "Enrollment Created"
+msgstr "Enrolment Created"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:58
 msgid "Order Updated"
-msgstr "Enrollment Updated"
+msgstr "Enrolment Updated"
 
 #: includes/admin/settings/views/html-webhooks-edit.php:59
 msgid "Order Deleted"
-msgstr "Enrollment Deleted"
+msgstr "Enrolment Deleted"
 
 
 #: includes/admin/views/html-admin-page-status-report.php:524
 msgid ""
 "A list of taxonomy terms that can be used in regard to order/product "
 "statuses."
-msgstr "A list of taxonomy terms that can be used in regard to enrollment/course statuses."
+msgstr "A list of taxonomy terms that can be used in regard to enrolment/course statuses."
 
 #: includes/admin/class-wc-admin-assets.php:214
 msgid ""
 "Are you sure you want to remove the selected items? If you have previously "
 "reduced this item's stock, or this order was submitted by a customer, you "
 "will need to manually restore the item's stock."
-msgstr "Are you sure you want to remove the selected items? If you have previously reduced this course's enrollment, or this enrollment was submitted by a customer, you will need to manually restore the course's enrollment."
+msgstr "Are you sure you want to remove the selected items? If you have previously reduced this course's enrolment, or this enrolment was submitted by a customer, you will need to manually restore the course's enrolment."
 
 #: includes/admin/class-wc-admin-assets.php:229
 msgid "Calculate totals based on order items, discounts, and shipping?"
-msgstr "Calculate totals based on enrollment items, discounts, and shipping?"
+msgstr "Calculate totals based on enrolment items, discounts, and shipping?"
 
 #: includes/admin/class-wc-admin-assets.php:261
 msgid ""
 "Could not grant access - the user may already have permission for this file "
 "or billing email is not set. Ensure the billing email is set, and the order "
 "has been saved."
-msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrollment has been saved."
+msgstr "Could not grant access - the user may already have permission for this file or billing email is not set. Ensure the billing email is set, and the enrolment has been saved."
 
 msgid "Stock"
 msgstr "Capacity"
 
 msgid "Edit Order"
-msgstr "Edit Enrollment"
+msgstr "Edit Enrolment"
 
 msgid "WooCommerce"
 msgstr "Finance"
