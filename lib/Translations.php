@@ -53,5 +53,4 @@ class Translations {
 
 		return $mofile;
 	}
-
 }
