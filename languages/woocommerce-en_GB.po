@@ -198,7 +198,7 @@ msgstr "Sorry, this course cannot be purchased."
 msgid ""
 "You cannot add &quot;%s&quot; to the cart because the product is out of "
 "stock."
-msgstr "You cannot add &quot;%s&quot; to the basket because the course is out of stock."
+msgstr "You cannot add &quot;%s&quot; to the enrolment because the course is out of stock."
 
 #: includes/class-wc-comments.php:191
 msgid "Please rate the product."
@@ -252,7 +252,7 @@ msgstr "Enable course is full notifications"
 
 #: includes/class-wc-form-handler.php:674
 msgid "Please choose a product to add to your cart&hellip;"
-msgstr "Please choose a course to add to your basket&hellip;"
+msgstr "Please choose a course to add to your enrolment&hellip;"
 
 #: includes/class-wc-form-handler.php:729
 msgid "Please choose product options&hellip;"
@@ -516,7 +516,7 @@ msgstr "Top Rated Courses"
 
 #: templates/cart/mini-cart.php:63
 msgid "No products in the cart."
-msgstr "No courses in the basket."
+msgstr "No courses in the enrolment."
 
 #: templates/loop/no-products-found.php:17
 msgid "No products were found matching your selection."
@@ -1179,3 +1179,224 @@ msgstr "Parent Course"
 
 msgid " You are about to trash these items"
 msgstr " You are about to bin these items"
+
+#: admin/woocommerce-admin-install.php:195
+#: admin/woocommerce-admin-status.php:277
+#: assets/js/admin/editor_plugin_lang.php:15
+#: classes/widgets/class-wc-widget-cart.php:61
+#@ woocommerce
+msgid "Cart"
+msgstr "Enrolment"
+
+#: classes/class-wc-cart.php:464
+#, php-format
+#@ woocommerce
+msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in stock). Please edit your cart and try again. We apologise for any inconvenience caused."
+msgstr "Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in stock). Please edit your enrolment and try again. We apologise for any inconvenience caused."
+
+#: classes/class-wc-cart.php:483
+#: classes/class-wc-cart.php:492
+#, php-format
+#@ woocommerce
+msgid "Sorry, we do not have enough \"%s\" in stock to fulfil your order (%s in stock). Please edit your cart and try again. We apologise for any inconvenience caused."
+msgstr "Sorry, we do not have enough \"%s\" in stock to fulfil your order (%s in stock). Please edit your enrolment and try again. We apologise for any inconvenience caused."
+
+#: classes/class-wc-cart.php:527
+#, php-format
+#@ woocommerce
+msgid "Sorry, we do not have enough \"%s\" in stock to fulfil your order right now. Please try again in %d minutes or edit your cart and try again. We apologise for any inconvenience caused."
+msgstr "Sorry, we do not have enough \"%s\" in stock to fulfil your order right now. Please try again in %d minutes or edit your enrolment and try again. We apologise for any inconvenience caused."
+
+#: classes/class-wc-cart.php:537
+#, php-format
+#@ woocommerce
+msgid "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We apologise for any inconvenience caused."
+msgstr "Sorry, \"%s\" is not in stock. Please edit your enrolment and try again. We apologise for any inconvenience caused."
+#: classes/class-wc-cart.php:842
+#: classes/class-wc-cart.php:856
+#: classes/class-wc-cart.php:864
+#: templates/cart/mini-cart.php:68
+#: woocommerce-functions.php:470
+#: woocommerce.php:1176
+#@ woocommerce
+msgid "View Cart &rarr;"
+msgstr "View Enrolment &rarr;"
+
+#: classes/class-wc-cart.php:842
+#@ woocommerce
+msgid "You already have this item in your cart."
+msgstr "You already have this item in your enrolment."
+#: classes/class-wc-cart.php:856
+#: classes/class-wc-cart.php:864
+#, php-format
+#@ woocommerce
+msgid "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the cart &mdash; we have %s in stock and you already have %s in your cart."
+msgstr "<a href=\"%s\" class=\"button\">%s</a> You cannot add that amount to the enrolment &mdash; we have %s spaces and you already have %s in your enrolment."
+
+#: classes/class-wc-coupon.php:468
+#@ woocommerce
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr "Sorry, this coupon is not applicable to your enrolment contents."
+
+#: classes/class-wc-order.php:923
+#@ woocommerce
+msgid "Cart Subtotal:"
+msgstr "Enrolment Subtotal:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:499
+#: classes/class-wc-order.php:929
+#@ woocommerce
+msgid "Cart Discount:"
+msgstr "Enrolment Discount:"
+
+#: admin/settings/settings-init.php:500
+#: classes/class-wc-shortcodes.php:571
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:257
+#: templates/loop/add-to-cart.php:46
+#: templates/single-product/add-to-cart/grouped.php:45
+#: templates/single-product/add-to-cart/grouped.php:75
+#: templates/single-product/add-to-cart/simple.php:42
+#: templates/single-product/add-to-cart/variable.php:78
+#@ woocommerce
+msgid "Add to cart"
+msgstr "Add to enrolment"
+
+#: classes/gateways/paypal/class-wc-gateway-paypal.php:435
+#@ woocommerce
+msgid "Cancel order &amp; restore cart"
+msgstr "Cancel order &amp; restore enrolment"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:81
+#@ woocommerce
+msgid "Add event tracking code for add to cart actions"
+msgstr "Add event tracking code for add to enrolment actions"
+
+#: classes/integrations/google-analytics/class-wc-google-analytics.php:277
+#@ woocommerce
+msgid "Add to Cart"
+msgstr "Add to Enrolment"
+
+#: classes/shipping/local-delivery/class-wc-shipping-local-delivery.php:117
+#@ woocommerce
+msgid "Percentage of cart total"
+msgstr "Percentage of enrolment total"
+
+#: classes/widgets/class-wc-widget-cart.php:33
+#@ woocommerce
+msgid "Display the user's Cart in the sidebar."
+msgstr "Display the user's Enrolment in the sidebar."
+
+#: classes/widgets/class-wc-widget-cart.php:35
+#@ woocommerce
+msgid "WooCommerce Cart"
+msgstr "WooCommerce Enrolment"
+
+#: classes/widgets/class-wc-widget-cart.php:119
+#@ woocommerce
+msgid "Hide if cart is empty"
+msgstr "Hide if enrolment is empty"
+
+#: templates/cart/cart.php:134
+#@ woocommerce
+msgid "Update Cart"
+msgstr "Update Enrolment"
+
+#: templates/cart/cart.php:134
+#@ woocommerce
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: templates/cart/cross-sells.php:40
+#@ woocommerce
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: templates/cart/cart-empty.php:14
+#@ woocommerce
+msgid "Your cart is currently empty."
+msgstr "Your enrolment is currently empty."
+
+#: templates/cart/cart.php:134
+#@ woocommerce
+msgid "Update Cart"
+msgstr "Update Enrolment"
+
+#: templates/cart/cart.php:134
+#@ woocommerce
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: templates/cart/cross-sells.php:40
+#@ woocommerce
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: templates/cart/cart-empty.php:14
+#@ woocommerce
+msgid "Your cart is currently empty."
+msgstr "Your enrolment is currently empty."
+
+#: templates/cart/totals.php:22
+#@ woocommerce
+msgid "Cart Totals"
+msgstr "Enrolment Totals"
+
+#: templates/cart/totals.php:28
+#: templates/checkout/review-order.php:27
+#@ woocommerce
+msgid "Cart Subtotal"
+msgstr "Enrolment Subtotal"
+
+#: templates/checkout/cart-errors.php:16
+#@ woocommerce
+msgid "There are some issues with the items in your cart (shown above). Please go back to the cart page and resolve these issues before checking out."
+msgstr "There are some issues with the items in your enrolment (shown above). Please go back to the enrolment page and resolve these issues before checking out."
+
+#: templates/checkout/cart-errors.php:20
+#@ woocommerce
+msgid "&larr; Return To Cart"
+msgstr "&larr; Return To Enrolment"
+
+#: woocommerce-functions.php:208
+#: woocommerce-functions.php:253
+#@ woocommerce
+msgid "Cart updated."
+msgstr "Enrolment updated."
+
+#: woocommerce-functions.php:239
+#, php-format
+#@ woocommerce
+msgid "You can only have 1 %s in your cart."
+msgstr "You can only have 1 %s in your enrolment."
+
+#: woocommerce-functions.php:296
+#: woocommerce-functions.php:343
+#@ woocommerce
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: woocommerce-functions.php:378
+#@ woocommerce
+msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr "Please choose the quantity of items you wish to add to your enrolment&hellip;"
+
+#: woocommerce-functions.php:386
+#@ woocommerce
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr "Please choose a product to add to your enrolment&hellip;"
+
+#: woocommerce-functions.php:455
+#, php-format
+#@ woocommerce
+msgid "Added &quot;%s&quot; to your cart."
+msgstr "Added &quot;%s&quot; to your enrolment."
+
+#: woocommerce-functions.php:841
+#@ woocommerce
+msgid "The cart has been filled with the items from your previous order."
+msgstr "The enrolment has been filled with the items from your previous order."
+
+#: woocommerce.php:1656
+#@ woocommerce
+msgid "Cart % Discount"
+msgstr "Enrolment % Discount"
