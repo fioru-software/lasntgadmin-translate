@@ -1304,7 +1304,7 @@ msgstr "Update Enrolment"
 #: templates/cart/cart.php:134
 #@ woocommerce
 msgid "Proceed to Checkout &rarr;"
-msgstr ""
+msgstr "Add attendees"
 
 #: templates/cart/cross-sells.php:40
 #@ woocommerce
@@ -1320,11 +1320,6 @@ msgstr "Your enrolment is currently empty."
 #@ woocommerce
 msgid "Update Cart"
 msgstr "Update Enrolment"
-
-#: templates/cart/cart.php:134
-#@ woocommerce
-msgid "Proceed to Checkout &rarr;"
-msgstr ""
 
 #: templates/cart/cross-sells.php:40
 #@ woocommerce
@@ -1378,7 +1373,7 @@ msgstr ""
 #: woocommerce-functions.php:378
 #@ woocommerce
 msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
-msgstr "Please choose the quantity of items you wish to add to your enrolment&hellip;"
+msgstr "Please choose the number of attendees of items you wish to add to your enrolment&hellip;"
 
 #: woocommerce-functions.php:386
 #@ woocommerce
@@ -1400,3 +1395,58 @@ msgstr "The enrolment has been filled with the items from your previous order."
 #@ woocommerce
 msgid "Cart % Discount"
 msgstr "Enrolment % Discount"
+
+#: woocommerce-functions.php:423
+#, php-format
+msgid "&quot;%s&quot; was successfully added to your cart."
+msgstr ""
+
+#@ woocommerce
+msgid "Quantity"
+msgstr "Number of attendees"
+
+#: templates/cart/cart.php:100
+#: templates/single-product/add-to-cart/quantity.php:13
+#@ woocommerce
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Number of attendees"
+
+#: templates/emails/plain/email-order-items.php:28
+#, php-format
+#@ woocommerce
+msgid "Number of attendees: %s"
+msgstr ""
+
+#: woocommerce-functions.php:378
+#@ woocommerce
+msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr "Please choose the number of attendees of items you wish to add to your basket&hellip;"
+
+#: templates/emails/customer-completed-order.php:14
+#: templates/emails/plain/customer-completed-order.php:13
+#, php-format
+#@ woocommerce
+msgid "Hi there. Your recent order on %s has been completed. Your order details are shown below for your reference:"
+msgstr "Hi there. Your recent enrolment on %s has been completed. Your enrolment details are shown below for your reference:"
+
+#: admin/post-types/writepanels/writepanel-order_data.php:59
+#: templates/order/order-details.php:16
+#@ woocommerce
+msgid "Order Details"
+msgstr "Enrolment Details"
+
+#: classes/emails/class-wc-email-customer-processing-order.php:25
+#@ woocommerce
+msgid "This is an order notification sent to the customer after payment containing order details."
+msgstr "This is an order notification sent to the customer after payment containing enrolment details."
+
+#: woocommerce.php:1034
+#@ woocommerce
+msgid "No Orders found"
+msgstr "No Enrolments found"
+
+#: woocommerce.php:1035
+#@ woocommerce
+msgid "No Orders found in trash"
+msgstr "No Enrolments found in trash"
