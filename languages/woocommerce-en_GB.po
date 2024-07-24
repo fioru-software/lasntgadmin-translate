@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "POT-Creation-Date: 2023-04-28T12:26:38+00:00\n"
-"PO-Revision-Date: 2023-07-26 12:56+0100\n"
+"PO-Revision-Date: 2024-07-24 07:48+0100\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "X-Domain: woocommerce\n"
 
@@ -27,16 +27,17 @@ msgid "Products"
 msgstr "Courses"
 
 msgid "Start Import"
-msgstr "Begin Invoer"
+msgstr "Start Import"
 
 msgid "Ready to start selling something awesome?"
-msgstr "Gereed om iets te verkoop?"
+msgstr "Ready to start offering courses?"
 
-msgid "Create Product"
-msgstr "Create Course"
 ## Plural
 msgid "Create Products"
 msgstr "Create Courses"
+
+msgid "Create Product"
+msgstr "Create Course"
 
 msgid "Product name"
 msgstr "Course name"

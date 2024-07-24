@@ -1,6 +1,6 @@
 {
     "name": "fioru/lasntgadmin-translate",
-    "version": "1.2.11",
+    "version": "1.2.12",
     "type": "wordpress-plugin",
     "extra": {
         "installer-name": "lasntgadmin-translate"
