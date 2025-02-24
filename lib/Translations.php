@@ -4,7 +4,7 @@ namespace Lasntg\Admin\Translate;
 
 use Lasntg\Admin\Translate\PluginUtils;
 use Lasntg\Admin\Orders\PageUtils as OrderPageUtils;
-use Lasntg\Admin\PaymentGateway\GrantFunded/GrantExplorerWidget
+use Lasntg\Admin\PaymentGateway\GrantFunded\GrantExplorerWidget;
 
 class Translations {
 
